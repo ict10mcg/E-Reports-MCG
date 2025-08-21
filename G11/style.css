@@ -29,7 +29,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#confetti-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--accent);
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
 body {
   font-family: 'Poppins', sans-serif;
   background-image: url('https://raw.githubusercontent.com/ict10mcg/E-Reports-MCG/refs/heads/main/G11/img/bg.png');
@@ -518,5 +533,6 @@ footer {
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
 
 
