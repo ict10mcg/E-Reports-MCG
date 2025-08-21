@@ -1105,7 +1105,7 @@ const data = {
   "marks": [97, 83, 90, 76, 62, 85, 80, 80, 68],
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
-"6800_2": {
+"6802": {
   "name": "Jonathan Suhas",
   "place": 20,
   "marks": [78, 75, 93, 64, 67, 75, 80, 84, 79],
@@ -1817,7 +1817,6 @@ const data = {
 };
 
     
-
 
 
 
