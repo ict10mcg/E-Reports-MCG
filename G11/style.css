@@ -366,7 +366,7 @@ main {
 
 /* Legend */
 #legend {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(249 248 234 / 95%);
   backdrop-filter: blur(20px);
   padding: 1.5rem;
   border-radius: 16px;
@@ -374,7 +374,7 @@ main {
   box-shadow: var(--shadow);
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 1.5rem;
-  width: 75%;
+  width: 200px;
   max-width: 400px;
 }
 
@@ -534,6 +534,7 @@ footer {
   display: none;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 
 
