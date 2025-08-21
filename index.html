@@ -7,7 +7,7 @@
   <link rel="icon" type="image/x-icon" href="logo.png">
   <style>
     :root {
-      --brand: #ffc900; /* requested theme color */
+      --brand: #ffc900;
       --text-dark: #171717;
       --text-light: #ffffff;
       --button-bg: rgba(23, 23, 23, 0.85);
@@ -16,16 +16,14 @@
     }
 
     * { box-sizing: border-box; }
-    html, body { height: 100%; }
+    html, body { height: 100%; margin: 0; }
 
     body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
       color: var(--text-light);
-      background: #000 url("img/bg.png") center/cover no-repeat fixed;
+      background: #000 url("G11/img/bg.png") center/cover no-repeat fixed;
     }
 
-    /* Subtle overlay to improve contrast on busy backgrounds */
     .backdrop {
       position: fixed; inset: 0;
       background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.65));
@@ -40,14 +38,13 @@
     }
 
     header {
-      padding: 28px 20px;
+      padding: 20px;
       display: flex; align-items: center; justify-content: center;
     }
 
     .title {
       margin: 0;
-      font-size: clamp(1.6rem, 3vw + 0.5rem, 2.6rem);
-      letter-spacing: 0.5px;
+      font-size: clamp(1.4rem, 4vw, 2.4rem);
       text-align: center;
       color: var(--text-light);
       text-shadow: 0 2px 18px rgba(0,0,0,0.35);
@@ -55,16 +52,19 @@
     .title strong { color: var(--brand); }
 
     .grid {
-      width: min(1100px, 92vw);
+      width: min(1000px, 92vw);
       margin: 0 auto;
       padding: 18px 0 32px;
       display: grid;
-      grid-template-columns: repeat(2, minmax(220px, 1fr));
+      grid-template-columns: 1fr; /* default 1 column for mobile */
       gap: 18px;
     }
 
-    @media (min-width: 720px) {
-      .grid { grid-template-columns: repeat(3, minmax(220px, 1fr)); }
+    @media (min-width: 600px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: repeat(3, 1fr); }
     }
 
     .card {
@@ -75,7 +75,7 @@
       background: var(--button-bg);
       border: 1px solid rgba(255,255,255,0.06);
       border-radius: 18px;
-      padding: 28px 22px;
+      padding: 22px 18px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.35);
       backdrop-filter: blur(6px);
       transition: transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
@@ -89,26 +89,31 @@
       outline: none;
     }
 
-    .card .label {
+    .label {
       display: inline-flex; align-items: center; gap: 10px;
       font-weight: 800;
-      font-size: clamp(1.1rem, 1.6vw + 0.6rem, 1.6rem);
-      letter-spacing: 0.3px;
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
     }
 
     .badge {
       display: inline-grid; place-items: center;
-      width: 42px; height: 42px;
-      border-radius: 12px;
+      width: 38px; height: 38px;
+      border-radius: 10px;
       background: var(--brand);
       color: var(--text-dark);
-      box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12), 0 6px 16px rgba(255, 201, 0, 0.36);
       font-weight: 900;
+      box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12), 0 6px 16px rgba(255, 201, 0, 0.36);
     }
 
-    .arrow { position: absolute; right: 18px; bottom: 14px; opacity: .9; }
+    .arrow {
+      position: absolute;
+      right: 16px;
+      bottom: 12px;
+      font-size: 1.2rem;
+      opacity: .9;
+    }
 
-    footer { text-align: center; padding: 18px 16px 26px; color: rgba(255,255,255,0.8); font-size: 0.95rem; }
+    footer { text-align: center; padding: 16px; color: rgba(255,255,255,0.8); font-size: 0.9rem; }
     footer a { color: var(--brand); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
   </style>
@@ -122,35 +127,14 @@
 
     <main>
       <div class="grid" role="list">
-        <a class="card" role="listitem" href="G11/11A.html">
-          <span class="label"><span class="badge">A</span> Class 11A</span>
-          <span class="arrow" aria-hidden>→</span>
-        </a>
-        <a class="card" role="listitem" href="G11/11B.html">
-          <span class="label"><span class="badge">B</span> Class 11B</span>
-          <span class="arrow" aria-hidden>→</span>
-        </a>
-        <a class="card" role="listitem" href="G11/11C.html">
-          <span class="label"><span class="badge">C</span> Class 11C</span>
-          <span class="arrow" aria-hidden>→</span>
-        </a>
-        <a class="card" role="listitem" href="G11/11D.html">
-          <span class="label"><span class="badge">D</span> Class 11D</span>
-          <span class="arrow" aria-hidden>→</span>
-        </a>
-        <a class="card" role="listitem" href="G11/11E.html">
-          <span class="label"><span class="badge">E</span> Class 11E</span>
-          <span class="arrow" aria-hidden>→</span>
-        </a>
-        <a class="card" role="listitem" href="G11/11F.html">
-          <span class="label"><span class="badge">F</span> Class 11F</span>
-          <span class="arrow" aria-hidden>→</span>
-        </a>
+        <a class="card" role="listitem" href="G11/11A.html"><span class="label"><span class="badge">A</span> Class 11A</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="G11/11B.html"><span class="label"><span class="badge">B</span> Class 11B</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="G11/11C.html"><span class="label"><span class="badge">C</span> Class 11C</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="G11/11D.html"><span class="label"><span class="badge">D</span> Class 11D</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="G11/11E.html"><span class="label"><span class="badge">E</span> Class 11E</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="G11/11F.html"><span class="label"><span class="badge">F</span> Class 11F</span><span class="arrow">→</span></a>
       </div>
     </main>
-
-   
   </div>
 </body>
-
 </html>
