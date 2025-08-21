@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>MCG G11B - 2025 2nd Term Test E-Report</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <title>MCG G11A - 2025 2nd Term Test E-Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>G11B - 2nd Term Test 2025 | E-Report</h1>
+ 
+ <center> <header>
+    <h1>G11 B - 2nd Term Test 2025 | E-Report
+</h1>
     <p>
       <span class="material-icons-outlined">school</span>
       Class Teacher: Mrs. S.T. Indrani
     </p>
   </header>
+</center>
 
   <main class="main">
     <section id="search-section">
       <div class="search-container">
         <img src="https://i.ibb.co/xK2zdgKf/Untitled-design-2.jpg" id="teacher-photo" alt="Class Teacher">
+        
         <div class="input-group">
           <input type="text" id="admission-number" placeholder="Enter Admission Number...">
           <button id="search-btn">
@@ -28,6 +32,8 @@
             Generate Report
           </button>
         </div>
+        
+
         <div id="legend">
           <div><span class="color-box" style="background-color: #28a745;"></span>A (75-100)</div>
           <div><span class="color-box" style="background-color: #ffc107;"></span>B (65-74)</div>
@@ -41,6 +47,7 @@
       <div id="chart-container">
         <canvas id="marks-chart"></canvas>
       </div>
+
       <div id="student-info">
         <div class="info-card">
           <span class="material-icons-outlined">person</span>
@@ -63,6 +70,7 @@
           <p id="average-marks">-</p>
         </div>
       </div>
+
       <div class="grade-distribution">
         <h3>
           <span class="material-icons-outlined">bar_chart</span>
@@ -70,9 +78,12 @@
         </h3>
         <div id="grade-distribution"></div>
       </div>
+
       <div class="subject-details" id="subject-details"></div>
     </section>
   </main>
+
+
 
   <div id="confetti-message">Congratulations on Achieving 9 A's!</div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -80,5 +91,65 @@
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
   <script src="data.js"></script>
   <script src="script.js"></script>
+   <style>
+    #confetti-message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: var(--accent, #ffcc00); /* fallback if --accent is not defined */
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      z-index: 1000;
+      display: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+  <script>
+    function checkForNineAs(student) {
+  const allAs = student.marks.every(mark => mark >= 75);
+  if (allAs) {
+    triggerConfetti();
+    const confettiMessage = document.getElementById("confetti-message");
+    confettiMessage.style.display = "block";
+    setTimeout(() => {
+      confettiMessage.style.display = "none";
+    }, 4000);
+  } else {
+    document.getElementById("confetti-message").style.display = "none";
+  }
+}
+
+function triggerConfetti() {
+  const duration = 3 * 1000;
+  const end = Date.now() + duration;
+
+  const confettiSettings = {
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  };
+
+  function frame() {
+    confetti({
+      ...confettiSettings,
+      colors: ['#28a745', '#f0ad4e', '#17a2b8', '#dc3545']
+    });
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  }
+
+  frame();
+}
+  </script>
 </body>
+
 </html>
+
+
+
