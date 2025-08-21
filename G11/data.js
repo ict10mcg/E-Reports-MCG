@@ -1808,7 +1808,7 @@ const data = {
     "marks": [39, 35, 27, 74, 33, 42, 62, 29, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
-  "unknown": {
+  "11836": {
     "name": "R. GETHMIKA PEDURUHEWA",
     "place": 18,
     "marks": [58, 81, 51, 71, 57, 58, 65, 40, 65],
@@ -1817,6 +1817,7 @@ const data = {
 };
 
     
+
 
 
 
