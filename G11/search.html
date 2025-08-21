@@ -23,16 +23,11 @@
       font-family:'Poppins', sans-serif;
       color:var(--text-light);
       min-height:100vh;
+      background:#000 url("G11/img/bg.png") center/cover no-repeat fixed;
       display:flex;
       align-items:center;
       justify-content:center;
       padding:20px;
-      background:#000 url("img/bg.png") center/cover no-repeat fixed;
-    }
-    @media (max-width: 768px){
-      body{
-        background:#000 url("img/bg2.png") center/cover no-repeat fixed;
-      }
     }
     body::before{
       content:"";
@@ -59,7 +54,7 @@
     input{flex:1;border:none;background:transparent;outline:none;color:#fff;font-size:16px}
     .results{padding:16px 20px}
     .student-card{background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:12px;margin-bottom:12px}
-    .student-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:space-between}
+    .student-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
     .student-name{margin:0;font-size:18px;font-weight:700}
     .pill{background:rgba(255,201,0,.2);color:#fff;padding:4px 8px;border-radius:12px;font-size:13px;display:inline-flex;align-items:center;gap:4px}
     table{width:100%;border-collapse:collapse;margin-top:10px}
@@ -68,11 +63,6 @@
     tr:last-child td{border-bottom:none}
     .empty{opacity:.8;padding:10px 0;display:flex;align-items:center;gap:6px}
     .empty .material-icons-outlined{color:var(--brand)}
-    .stats{margin-top:10px;display:flex;gap:12px;flex-wrap:wrap}
-    .stat-box{background:rgba(255,201,0,.15);padding:8px 12px;border-radius:10px;font-size:14px;display:flex;align-items:center;gap:6px}
-    .toggle{cursor:pointer;color:var(--brand);margin-left:auto;display:flex;align-items:center;gap:4px;font-weight:600}
-    .subjects{display:none;margin-top:10px}
-    .subjects.show{display:block}
   </style>
 </head>
 <body>
@@ -94,7 +84,8 @@
     </div>
   </div>
 
-  <script src="data.js"></script>
+  <!-- Student data -->
+  <script src="G11/data.js"></script>
 
   <script>
     const q = document.getElementById('q');
@@ -108,6 +99,8 @@
         results.innerHTML = `<div class="empty"><span class="material-icons-outlined">info</span> Start typing to search...</div>`;
         return;
       }
+
+      // check id match
       let matches = [];
       if(data[query]) matches.push({id:query, ...data[query]});
       else{
@@ -117,24 +110,15 @@
           }
         }
       }
+
       if(matches.length===0){
         results.innerHTML = `<div class="empty"><span class="material-icons-outlined">warning</span> No student found</div>`;
       } else {
         results.innerHTML = matches.map(s=>studentCard(s)).join('');
-        document.querySelectorAll('.toggle').forEach(btn=>{
-          btn.addEventListener('click',()=>{
-            const box=btn.parentElement.querySelector('.subjects');
-            box.classList.toggle('show');
-            btn.querySelector('.material-icons-outlined').textContent = 
-              box.classList.contains('show') ? 'remove' : 'add';
-          });
-        });
       }
     }
 
     function studentCard(s){
-      let total = s.marks.reduce((a,b)=>a+b,0);
-      let percentage = (total/9).toFixed(2);
       let rows = s.subjects.map((sub,i)=>`
         <tr><td>${sub}</td><td>${s.marks[i]}</td></tr>
       `).join('');
@@ -144,18 +128,11 @@
             <h3 class="student-name">${s.name}</h3>
             <span class="pill"><span class="material-icons-outlined">tag</span> ${s.id}</span>
             <span class="pill"><span class="material-icons-outlined">military_tech</span> Place: ${s.place}</span>
-            <div class="toggle"><span class="material-icons-outlined">add</span>Details</div>
           </div>
-          <div class="stats">
-            <div class="stat-box"><span class="material-icons-outlined">functions</span>Total: ${total}</div>
-            <div class="stat-box"><span class="material-icons-outlined">percent</span>Avg: ${percentage}%</div>
-          </div>
-          <div class="subjects">
-            <table>
-              <tr><th>Subject</th><th>Marks</th></tr>
-              ${rows}
-            </table>
-          </div>
+          <table>
+            <tr><th>Subject</th><th>Marks</th></tr>
+            ${rows}
+          </table>
         </div>
       `;
     }
