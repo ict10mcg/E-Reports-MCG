@@ -1340,7 +1340,7 @@ const data = {
 "marks": [37, 0, 0, 25, 53, 49, 35, 25, 0],
 "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
-"6808": {
+"68085": {
 "name": "N.P.M. PIYUSHA",
 "place": 21,
 "marks": [60, 54, 26, 59, 76, 71, 62, 16, 59],
@@ -1816,6 +1816,7 @@ const data = {
 };
 
     
+
 
 
 
