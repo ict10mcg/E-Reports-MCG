@@ -410,7 +410,7 @@ const data = {
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "6779": {
-  "name": "Y.R. SAMARAWEERAARACHCHI",
+  "name": "Y.R. SAMARAWEERAARACHCHI  (Developer❤️)",
   "place": 2,
   "marks": [88, 83, 93, 69, 90, 80, 97, 90, 95],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
@@ -500,7 +500,7 @@ const data = {
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "8972": {
-  "name": "K.K. NETHINDU THAMINDA",
+  "name": "K.K. NETHINDU THAMINDA  (Developer❤️)",
   "place": 5,
   "marks": [89, 79, 83, 78, 81, 64, 78, 76, 93],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
@@ -530,19 +530,19 @@ const data = {
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "8993": {
-  "name": "D.M.THISUM JALITHA",
+  "name": "D.M.THISUM JALITHA (Developer❤️)",
   "place": 1,
   "marks": [92, 90, 98, 81, 84, 90, 94, 91, 90],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "8994": {
-  "name": "D.G. NADITH NETHSARA",
+  "name": "D.G. NADITH NETHSARA 😁 ",
   "place": 7,
   "marks": [85, 78, 69, 65, 73, 85, 91, 83, 75],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "8997": {
-  "name": "W.D. MADHUKA SHYAMAL",
+  "name": "W.D. MADHUKA SHYAMAL 🙃👍",
   "place": 16,
   "marks": [91, 75, 68, 68, 83, 0, 75, 75, 75],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
@@ -590,7 +590,7 @@ const data = {
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "9782": {
-  "name": "M.G.S. SITHUMJITH",
+  "name": "M.G.S. SITHUMJITH 🙃👍",
   "place": 9,
   "marks": [85, 72, 83, 71, 71, 77, 72, 82, 85],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
@@ -1816,5 +1816,6 @@ const data = {
 };
 
     
+
 
 
