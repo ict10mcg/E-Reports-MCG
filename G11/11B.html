@@ -88,9 +88,67 @@
   <div id="confetti-message">Congratulations on Achieving 9 A's!</div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.0.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
   <script src="data.js"></script>
   <script src="script.js"></script>
+   <style>
+    #confetti-message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: var(--accent, #ffcc00); /* fallback if --accent is not defined */
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      z-index: 1000;
+      display: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+  <script>
+    function checkForNineAs(student) {
+  const allAs = student.marks.every(mark => mark >= 75);
+  if (allAs) {
+    triggerConfetti();
+    const confettiMessage = document.getElementById("confetti-message");
+    confettiMessage.style.display = "block";
+    setTimeout(() => {
+      confettiMessage.style.display = "none";
+    }, 4000);
+  } else {
+    document.getElementById("confetti-message").style.display = "none";
+  }
+}
+
+function triggerConfetti() {
+  const duration = 3 * 1000;
+  const end = Date.now() + duration;
+
+  const confettiSettings = {
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  };
+
+  function frame() {
+    confetti({
+      ...confettiSettings,
+      colors: ['#28a745', '#f0ad4e', '#17a2b8', '#dc3545']
+    });
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  }
+
+  frame();
+}
+  </script>
 </body>
 
 </html>
+
 
