@@ -968,8 +968,8 @@ const data = {
 },
 "6692": {
   "name": "A S K W Dahanayaka",
-  "place": 46,
-  "marks": [34, 99, 86, 33, 42, 33, 32, 41, 54],
+  "place": 48,
+  "marks": [34, 33, 86, 33, 42, 33, 32, 41, 54],
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
 "6696": {
@@ -1063,8 +1063,8 @@ const data = {
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
 "6775": {
-  "name": "Senila Hansana",
-  "place": 48,
+  "name": "Senila Hansana (●'◡'●)",
+  "place": 47,
   "marks": [68, 52, 74, 34, 34, 23, 67, 50, 27],
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
@@ -1166,7 +1166,7 @@ const data = {
 },
 "8976": {
   "name": "Senuka Nimsara",
-  "place": 47,
+  "place": 46,
   "marks": [70, 47, 78, 45, 33, 43, 75, 51, 0],
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
@@ -1816,3 +1816,4 @@ const data = {
 };
 
     
+
