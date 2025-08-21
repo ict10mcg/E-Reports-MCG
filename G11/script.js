@@ -191,4 +191,41 @@ function triggerConfetti() {
       });
 
     }
+function checkForNineAs(student) {
+  const allAs = student.marks.every(mark => mark >= 75);
+  if (allAs) {
+    triggerConfetti();
+    const confettiMessage = document.getElementById("confetti-message");
+    confettiMessage.style.display = "block";
+    setTimeout(() => {
+      confettiMessage.style.display = "none";
+    }, 4000);
+  } else {
+    document.getElementById("confetti-message").style.display = "none";
+  }
+}
+
+function triggerConfetti() {
+  const duration = 3 * 1000;
+  const end = Date.now() + duration;
+
+  const confettiSettings = {
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  };
+
+  function frame() {
+    confetti({
+      ...confettiSettings,
+      colors: ['#28a745', '#f0ad4e', '#17a2b8', '#dc3545']
+    });
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  }
+
+  frame();
+}
+
 
