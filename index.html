@@ -17,13 +17,20 @@
 
     * { box-sizing: border-box; }
     html, body { height: 100%; margin: 0; }
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
+  color: var(--text-light);
+  background: #000 url("G11/img/bg.png") center/cover no-repeat fixed;
+}
 
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
-      color: var(--text-light);
-      background: #000 url("G11/img/bg.png") center/cover no-repeat fixed;
-    }
+/* Tablet and phone */
+@media screen and (max-width: 1024px) {
+  body {
+    background: #000 url("G11/img/bg2.png") center/cover no-repeat scroll;
+  }
+}
 
+    
     .backdrop {
       position: fixed; inset: 0;
       background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.65));
@@ -138,3 +145,4 @@
   </div>
 </body>
 </html>
+
