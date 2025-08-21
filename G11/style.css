@@ -374,7 +374,7 @@ main {
   box-shadow: var(--shadow);
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 1.5rem;
-  width: 100%;
+  width: 75%;
   max-width: 400px;
 }
 
@@ -534,6 +534,7 @@ footer {
   display: none;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 
 
