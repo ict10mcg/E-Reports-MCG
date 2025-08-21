@@ -40,6 +40,44 @@ document.getElementById("search-btn").addEventListener("click", searchStudent);
   // ✅ Ensure container has a fixed height so Chart.js can fill it
   canvas.parentElement.style.height = '400px'; // You can adjust this height
 
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+function checkForNineAs(student) {
+  const allAs = student.marks.every(mark => mark >= 75);
+  if (allAs) {
+    triggerConfetti();
+    const confettiMessage = document.getElementById("confetti-message");
+    confettiMessage.style.display = "block";
+    setTimeout(() => {
+      confettiMessage.style.display = "none";
+    }, 4000);
+  } else {
+    document.getElementById("confetti-message").style.display = "none";
+  }
+}
+
+function triggerConfetti() {
+  const duration = 3 * 1000;
+  const end = Date.now() + duration;
+
+  const confettiSettings = {
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  };
+
+  function frame() {
+    confetti({
+      ...confettiSettings,
+      colors: ['#28a745', '#f0ad4e', '#17a2b8', '#dc3545']
+    });
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  }
+
+  frame();
+}
+
   // Get CSS variable colors
   const styles = getComputedStyle(document.documentElement);
   const successColor = styles.getPropertyValue('--success').trim();
@@ -166,4 +204,5 @@ document.getElementById("search-btn").addEventListener("click", searchStudent);
         subjectBadge.textContent = `${student.subjects[index]}: ${mark}`;
         subjectDetailsDiv.appendChild(subjectBadge);
       });
+
     }
