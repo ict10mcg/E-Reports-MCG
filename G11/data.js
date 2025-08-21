@@ -448,7 +448,7 @@ const data = {
 "6823": {
   "name": "B.J.A. JANITH CHATHUMINA",
   "place": 41,
-  "marks": [42, 85, 11, 17, 59, 48, 37, 52, 40],
+  "marks": [42, 35, 11, 17, 59, 48, 37, 52, 40],
   "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
 },
 "6825": {
@@ -1816,4 +1816,5 @@ const data = {
 };
 
     
+
 
