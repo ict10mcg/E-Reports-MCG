@@ -411,9 +411,9 @@ const data = {
     "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6779": {
-    "name": "Y.R. SAMARAWEERAARACHCHI",
+    "name": "Y.RAKMITHA SAMARAWEERAARACHCHI",
     "place": 2,
-    "marks": [88, 83, 93, 69, 90, 80, 97, 89, 95],
+    "marks": [88, 83, 93, 69, 90, 80, 97, 90, 95],
     "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6792": {
@@ -1817,6 +1817,7 @@ const data = {
 };
 
     
+
 
 
 
