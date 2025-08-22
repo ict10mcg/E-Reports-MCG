@@ -25,7 +25,7 @@
         <img src="https://i.ibb.co/84jDzpMd/Untitled-design-5.png" id="teacher-photo" alt="Class Teacher">
         
         <div class="input-group">
-          <input type="text" id="admission-number" placeholder="Enter Admission Number...">
+          <input type="text" id="admission-number" placeholder="Enter Register Number...">
           <button id="search-btn">
             <span class="material-icons-outlined">analytics</span>
             Generate Report
@@ -81,13 +81,329 @@
     </section>
   </main>
 
-
+<script>
+  const data = {
+    "1": {
+    "name": "H.P. Bineth Manasa",
+    "place": 41,
+    "marks": [58, 58, 34, 24, 70, 59, 58, 52, 24],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "2": {
+    "name": "N.W.G. Kumitha Kinal",
+    "place": 14,
+    "marks": [79, 65, 53, 74, 85, 76, 58, 79, 72],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "3": {
+    "name": "T.V. Matheesha Nimsara",
+    "place": 21,
+    "marks": [75, 56, 54, 43, 84, 69, 89, 59, 88],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "4": {
+    "name": "S.P. Januka Budmina",
+    "place": 30,
+    "marks": [57, 68, 59, 37, 70, 60, 65, 65, 81],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "5": {
+    "name": "Dehan Chirandith",
+    "place": 28,
+    "marks": [57, 68, 48, 45, 75, 54, 73, 66, 87],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "6": {
+    "name": "N.H. Isuru Probodana",
+    "place": 41,
+    "marks": [61, 62, 41, 26, 76, 34, 47, 55, 35],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "7": {
+    "name": "Kusal Nicalo",
+    "place": 25,
+    "marks": [58, 60, 40, 60, 94, 67, 69, 62, 75],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "8": {
+    "name": "A.M.K. Keshawa Rasod",
+    "place": 2,
+    "marks": [85, 83, 84, 76, 90, 87, 79, 91, 89],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "9": {
+    "name": "N. Mihin Thinuga Imalsha",
+    "place": 17,
+    "marks": [71, 76, 67, 66, 89, 73, 57, 60, 72],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "10": {
+    "name": "H.V. Samithu",
+    "place": 52,
+    "marks": [9, 15, 14, 2, 8, 11, 20, 5, 11],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "11": {
+    "name": "K.T. Kithnuka",
+    "place": 47,
+    "marks": [33, 45, 24, 21, 30, 64, 50, 54, 47],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "12": {
+    "name": "I.W.G.A. Gagana Gimhana",
+    "place": 4,
+    "marks": [82, 73, 73, 78, 85, 92, 97, 58, 82],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "13": {
+    "name": "A.R. Thisara Ransilu",
+    "place": 19,
+    "marks": [75, 67, 65, 46, 67, 74, 73, 89, 67],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "14": {
+    "name": "K. Dilitha Thejan",
+    "place": 26,
+    "marks": [63, 58, 51, 45, 90, 51, 76, 72, 74],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "15": {
+    "name": "H.A. Senuja Vehan",
+    "place": 15,
+    "marks": [68, 67, 61, 62, 87, 62, 75, 69, 88],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "16": {
+    "name": "W.K. Okindu Amayuru",
+    "place": 36,
+    "marks": [48, 44, 64, 47, 57, 80, 53, 21, 65],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "17": {
+    "name": "K.H. Sandila Ranmira",
+    "place": 26,
+    "marks": [70, 63, 76, 50, 83, 76, 78, 84, 0],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "18": {
+    "name": "D.W.T. Kith Niyon",
+    "place": 48,
+    "marks": [42, 31, 45, 15, 61, 32, 15, 18, 30],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "19": {
+    "name": "W.B. Kashmira",
+    "place": 8,
+    "marks": [80, 66, 80, 87, 87, 72, 81, 84, 43],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "20": {
+    "name": "S. Thishen Randika",
+    "place": 39,
+    "marks": [0, 0, 0, 58, 86, 87, 0, 81, 80],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "21": {
+    "name": "V.P. Rajamathri",
+    "place": 35,
+    "marks": [70, 49, 33, 43, 92, 62, 55, 55, 39],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "22": {
+    "name": "I.G. Chanuka Udan",
+    "place": 44,
+    "marks": [29, 33, 32, 28, 47, 56, 47, 64, 46],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "23": {
+    "name": "K.M. Sanupa Yanula",
+    "place": 43,
+    "marks": [48, 53, 50, 42, 61, 57, 50, 58, 0],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "24": {
+    "name": "P.P. Ruwanpathirana",
+    "place": 23,
+    "marks": [58, 60, 49, 48, 87, 64, 66, 85, 83],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "25": {
+    "name": "Dileeth Dinanjaya",
+    "place": 37,
+    "marks": [75, 54, 47, 49, 76, 50, 70, 0, 38],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "26": {
+    "name": "G.L.J. Amadith",
+    "place": 45,
+    "marks": [59, 45, 37, 15, 75, 36, 37, 14, 66],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "27": {
+    "name": "K.K. Dineth Denuka",
+    "place": 6,
+    "marks": [69, 77, 67, 80, 92, 74, 72, 71, 86],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "28": {
+    "name": "Janeesha Hoththotuwagamage",
+    "place": 38,
+    "marks": [46, 79, 47, 43, 64, 60, 61, 0, 53],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "29": {
+    "name": "G.H. Isum Wejitha",
+    "place": 16,
+    "marks": [80, 68, 62, 59, 87, 63, 91, 73, 49],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "30": {
+    "name": "P.K. Esandu Manumitha",
+    "place": 10,
+    "marks": [76, 85, 45, 84, 82, 81, 78, 58, 83],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "31": {
+    "name": "A.N.M. Ayod Indira",
+    "place": 32,
+    "marks": [55, 51, 45, 42, 66, 69, 58, 73, 55],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "32": {
+    "name": "K. Vishwa Withanage",
+    "place": 31,
+    "marks": [65, 64, 49, 53, 64, 77, 51, 62, 65],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "33": {
+    "name": "U.J. Kaweesha Induwara",
+    "place": 50,
+    "marks": [0, 0, 0, 0, 69, 0, 0, 0, 0],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "34": {
+    "name": "R. Kaveesha Nethmina",
+    "place": 40,
+    "marks": [58, 57, 39, 20, 51, 56, 38, 51, 72],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "35": {
+    "name": "G.S. Vidul Wathsuka",
+    "place": 22,
+    "marks": [55, 61, 54, 70, 68, 70, 64, 90, 71],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "36": {
+    "name": "K.A. Rashmika Shahinda",
+    "place": 49,
+    "marks": [33, 42, 42, 9, 43, 31, 36, 12, 32],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "37": {
+    "name": "M.W. Pamitha Yasod",
+    "place": 32,
+    "marks": [62, 55, 45, 59, 69, 87, 67, 18, 52],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "38": {
+    "name": "W.H.K. Randew",
+    "place": 9,
+    "marks": [75, 70, 53, 51, 90, 93, 88, 73, 81],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "39": {
+    "name": "A.H.S. Milan Rithmaka",
+    "place": 51,
+    "marks": [0, 0, 0, 0, 63, 0, 0, 0, 0],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "40": {
+    "name": "T.H.J.J. Shasmitha",
+    "place": 11,
+    "marks": [71, 61, 71, 79, 77, 76, 73, 85, 77],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "41": {
+    "name": "O.K.D.M.B. Karunarathna",
+    "place": 12,
+    "marks": [78, 70, 70, 89, 88, 71, 94, 41, 68],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "43": {
+    "name": "G.H.M. Sandaru",
+    "place": 46,
+    "marks": [47, 22, 38, 19, 53, 36, 39, 51, 64],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "44": {
+    "name": "K.G. Saniru Minpura",
+    "place": 34,
+    "marks": [52, 64, 49, 55, 56, 65, 34, 54, 74],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "45": {
+    "name": "A.M. Seniru Bimsara",
+    "place": 18,
+    "marks": [65, 64, 55, 78, 71, 72, 69, 78, 72],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "46": {
+    "name": "U.G.S.G. Deshapriya",
+    "place": 1,
+    "marks": [89, 86, 87, 86, 95, 83, 98, 82, 85],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "47": {
+    "name": "W.A. Chathuka Umayanga",
+    "place": 13,
+    "marks": [72, 72, 58, 75, 78, 69, 80, 80, 72],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "48": {
+    "name": "K. Thisum Randira",
+    "place": 24,
+    "marks": [67, 79, 62, 67, 71, 73, 70, 31, 74],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "49": {
+    "name": "R. Ransana",
+    "place": 3,
+    "marks": [83, 81, 75, 89, 94, 79, 74, 94, 79],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "50": {
+    "name": "H.G. Sasidu Nethsara",
+    "place": 29,
+    "marks": [61, 66, 52, 69, 62, 76, 76, 30, 75],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "51": {
+    "name": "D. Sanuja Nishshanka",
+    "place": 19,
+    "marks": [70, 76, 65, 75, 63, 70, 73, 57, 74],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "52": {
+    "name": "H. Janma Kaushalya",
+    "place": 7,
+    "marks": [78, 76, 70, 80, 74, 84, 73, 80, 70],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  },
+  "53": {
+    "name": "Ometh Gunathilaka",
+    "place": 4,
+    "marks": [80, 75, 60, 85, 88, 68, 81, 94, 89],
+    "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
+  }
+  };
+    
+</script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.0.1"></script>
-  <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
 
 </html>
+
