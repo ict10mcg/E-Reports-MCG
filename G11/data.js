@@ -673,7 +673,7 @@ const data = {
   "6707": {
     "name": "N.A.Kanishka Vishwadinu",
     "place": 30,
-    "marks": [62, 59, 28, 37, 44, 58, 51, 55, 57],
+    "marks": [68, 59, 28, 37, 44, 58, 51, 55, 57],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6717": {
