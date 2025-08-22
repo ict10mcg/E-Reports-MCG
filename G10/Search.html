@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>G11 • Student Search</title>
+
+  <!-- Google Fonts + Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <style>
+    :root{
+      --brand:#ffc900;
+      --text-light:#ffffff;
+      --text-dark:#000000;
+      --glass-bg: rgba(255,255,255,0.08);
+      --glass-border: rgba(255,255,255,0.18);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Poppins', sans-serif;
+      color:var(--text-light);
+      min-height:100vh;
+      background:#000 url("img/bg.png") center/cover no-repeat fixed;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+    }
+    @media screen and (max-width: 1024px) {
+  body {
+    background-image: url('https://raw.githubusercontent.com/ict10mcg/E-Reports-MCG/refs/heads/main/G11/img/bg2.png');
+    background-attachment: scroll; /* better for mobile performance */
+  }
+    }
+    body::before{
+      content:"";
+      position:fixed; inset:0;
+      background:linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6));
+      pointer-events:none;
+    }
+    .wrap{width:min(900px,100%);position:relative;z-index:1}
+    .card{
+      background:var(--glass-bg);
+      border:1px solid var(--glass-border);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius:20px;
+      box-shadow:0 8px 24px rgba(0,0,0,.35);
+      overflow:hidden;
+    }
+    .header{padding:18px 20px;border-bottom:1px dashed rgba(255,255,255,.15);display:flex;align-items:center;gap:10px}
+    .title{margin:0;font-weight:800;font-size:22px}
+    .brand-dot{width:12px;height:12px;border-radius:50%;background:var(--brand)}
+    .search{padding:15px 20px;border-bottom:1px dashed rgba(255,255,255,.15)}
+    .input-wrap{display:flex;align-items:center;gap:8px;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:10px 12px}
+    .input-wrap .material-icons-outlined{font-size:20px;color:var(--brand)}
+    input{flex:1;border:none;background:transparent;outline:none;color:#fff;font-size:16px}
+    .results{padding:16px 20px}
+    .student-card{background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:12px;margin-bottom:12px}
+    .student-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .student-name{margin:0;font-size:18px;font-weight:700}
+    .pill{background:rgba(255,201,0,.2);color:#fff;padding:4px 8px;border-radius:12px;font-size:13px;display:inline-flex;align-items:center;gap:4px}
+    table{width:100%;border-collapse:collapse;margin-top:10px}
+    th,td{padding:8px;text-align:center;border-bottom:1px solid rgba(255,255,255,.1)}
+    th{background:rgba(255,201,0,.3);color:#000;font-weight:700}
+    tr:last-child td{border-bottom:none}
+    .empty{opacity:.8;padding:10px 0;display:flex;align-items:center;gap:6px}
+    .empty .material-icons-outlined{color:var(--brand)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="header">
+        <span class="brand-dot"></span>
+        <h1 class="title">Grade 10 — Student Search</h1>
+      </div>
+      <div class="search">
+        <div class="input-wrap">
+          <span class="material-icons-outlined">search</span>
+          <input id="q" type="text" placeholder="Type ID or Name..." autocomplete="off" />
+        </div>
+      </div>
+      <div class="results" id="results">
+        <div class="empty"><span class="material-icons-outlined">info</span> Start typing to search...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Student data -->
+  <script src="data.js"></script>
+
+  <script>
+    const q = document.getElementById('q');
+    const results = document.getElementById('results');
+
+    q.addEventListener('input', liveSearch);
+
+    function liveSearch(){
+      const query = q.value.trim().toLowerCase();
+      if(!query){
+        results.innerHTML = `<div class="empty"><span class="material-icons-outlined">info</span> Start typing to search...</div>`;
+        return;
+      }
+
+      // check id match
+      let matches = [];
+      if(data[query]) matches.push({id:query, ...data[query]});
+      else{
+        for(const id in data){
+          if(data[id].name.toLowerCase().includes(query) || id.includes(query)){
+            matches.push({id, ...data[id]});
+          }
+        }
+      }
+
+      if(matches.length===0){
+        results.innerHTML = `<div class="empty"><span class="material-icons-outlined">warning</span> No student found</div>`;
+      } else {
+        results.innerHTML = matches.map(s=>studentCard(s)).join('');
+      }
+    }
+
+    function studentCard(s){
+      let rows = s.subjects.map((sub,i)=>`
+        <tr><td>${sub}</td><td>${s.marks[i]}</td></tr>
+      `).join('');
+      return `
+        <div class="student-card">
+          <div class="student-head">
+            <h3 class="student-name">${s.name}</h3>
+            <span class="pill"><span class="material-icons-outlined">tag</span> ${s.id}</span>
+            <span class="pill"><span class="material-icons-outlined">military_tech</span> Place: ${s.place}</span>
+          </div>
+          <table>
+            <tr><th>Subject</th><th>Marks</th></tr>
+            ${rows}
+          </table>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>
