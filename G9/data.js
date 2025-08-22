@@ -261,7 +261,7 @@ const data = {
   "10217": {
     "name": "M. Bingun Nimnada",
     "place": 47,
-    "marks": ["0", 84, "0", 48, 55, 31, 55, "0", 54, 38, 67, 10],
+    "marks": [0, 84, 0, 48, 55, 31, 55, 0, 54, 38, 67, 10],
     "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
   },
   "10244": {
@@ -1189,7 +1189,7 @@ const data = {
   "7562": {
     "name": "B Dasun Sansilu",
     "place": 48,
-    "marks": [24, 50, 34, 22, 24, 27, 15, 29, "0", 38, 36, 2],
+    "marks": [24, 50, 34, 22, 24, 27, 15, 29, 0, 38, 36, 2],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
   },
   "7563": {
@@ -1219,7 +1219,7 @@ const data = {
   "7586": {
     "name": "Sanuka Oshen",
     "place": 43,
-    "marks": [47, 56, 59, 29, 31, 35, "0", 50, "0", 68, 68, "0"],
+    "marks": [47, 56, 59, 29, 31, 35, 0, 50, 0, 68, 68, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
   },
   "7590": {
@@ -1279,7 +1279,7 @@ const data = {
   "7681": {
     "name": "PB Bavindu Sithumina",
     "place": 54,
-    "marks": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+    "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
   },
   "7683": {
@@ -1509,7 +1509,7 @@ const data = {
   "7542": {
     "name": "RASANGA MUNAWEERA",
     "place": 53,
-    "marks": [6, 10, 15, 0, 10, "0", 14, 6, 25, 27, 6, 0],
+    "marks": [6, 10, 15, 0, 10, 0, 14, 6, 25, 27, 6, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "7544": {
@@ -1539,7 +1539,7 @@ const data = {
   "7568": {
     "name": "D.G.A. SASINDU NIMESH",
     "place": 48,
-    "marks": [32, 47, 13, 0, 21, "0", 22, 19, 40, 50, "0"],
+    "marks": [32, 47, 13, 0, 21, 0, 22, 19, 40, 50, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "7569": {
@@ -1629,7 +1629,7 @@ const data = {
   "7694": {
     "name": "M.G.SADEW SETHMINA",
     "place": 45,
-    "marks": [25, 29, 33, 3, 25, 26, "0", 36, 79, 41, 30, "0"],
+    "marks": [25, 29, 33, 3, 25, 26, 0, 36, 79, 41, 30, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "7696": {
@@ -1677,7 +1677,7 @@ const data = {
   "7751": {
     "name": "D. SENUKA DULMETH",
     "place": 51,
-    "marks": [18, "0", 60, "0", "0", "0", "0", 58, "0", "0", "0", "0"],
+    "marks": [18, 0, 60, 0, 0, 0, 0, 58, 0, 0, 0, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "7755": {
@@ -1743,7 +1743,7 @@ const data = {
   "7805": {
     "name": "U.U.S. NIMNETH",
     "place": 54,
-    "marks": [26, "0", 30, "0", "0", "0", "0", 43, "0", "0", "0", "0"],
+    "marks": [26, 0, 30, 0, 0, 0, 0, 43, 0, 0, 0, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "7814": {
@@ -1821,7 +1821,7 @@ const data = {
   "12136": {
     "name": "A.SANDAKA HIRUN",
     "place": 49,
-    "marks": [9, 28, 17, 4, 20, 18, 21, 29, 20, 55, "0", 2],
+    "marks": [9, 28, 17, 4, 20, 18, 21, 29, 20, 55, 0, 2],
     "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   }
 
