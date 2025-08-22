@@ -169,7 +169,7 @@ const data = {
     "marks": [44, 0, 47, 40, 65, 64, 67, 33, 59],
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"]
   },
-  "6853": {
+  "6833": {
     "name": "A. NETHSARA CHITHHAN",
     "place": 22,
     "marks": [77, 73, 53, 75, 58, 71, 86, 56, 69],
@@ -1815,6 +1815,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
