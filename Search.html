@@ -30,10 +30,10 @@
       padding:20px;
     }
     @media screen and (max-width: 1024px) {
-  body {
-    background-image: url('https://raw.githubusercontent.com/ict10mcg/E-Reports-MCG/refs/heads/main/G11/img/bg2.png');
-    background-attachment: scroll; /* better for mobile performance */
-  }
+      body {
+        background-image: url('https://raw.githubusercontent.com/ict10mcg/E-Reports-MCG/refs/heads/main/G11/img/bg2.png');
+        background-attachment: scroll; /* better for mobile performance */
+      }
     }
     body::before{
       content:"";
@@ -91,9 +91,12 @@
   </div>
 
   <!-- Student data -->
-  <script src="G11/data.js"></script>
-   <script src="G10/data.js"></script>
-   <script src="G9/data.js"></script>
+  <script>
+    window.allData = {}; // master object for all grades
+  </script>
+  <script src="G11/data.js" onload="Object.assign(allData, data)"></script>
+  <script src="G10/data.js" onload="Object.assign(allData, data)"></script>
+  <script src="G9/data.js"  onload="Object.assign(allData, data)"></script>
 
   <script>
     const q = document.getElementById('q');
@@ -108,13 +111,12 @@
         return;
       }
 
-      // check id match
       let matches = [];
-      if(data[query]) matches.push({id:query, ...data[query]});
+      if(allData[query]) matches.push({id:query, ...allData[query]});
       else{
-        for(const id in data){
-          if(data[id].name.toLowerCase().includes(query) || id.includes(query)){
-            matches.push({id, ...data[id]});
+        for(const id in allData){
+          if(allData[id].name.toLowerCase().includes(query) || id.includes(query)){
+            matches.push({id, ...allData[id]});
           }
         }
       }
