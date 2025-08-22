@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grade 11 Classes</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <style>
+    :root {
+      --brand: #ffc900;
+      --text-dark: #171717;
+      --text-light: #ffffff;
+      --button-bg: rgba(23, 23, 23, 0.85);
+      --button-bg-hover: rgba(23, 23, 23, 0.92);
+      --ring: rgba(255, 201, 0, 0.55);
+    }
+
+    * { box-sizing: border-box; margin:0; padding:0; }
+    html, body { height: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial; color: var(--text-light); }
+
+    body {
+      background: #000 url("G11/img/bg.png") center/cover no-repeat fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    @media screen and (max-width: 1024px) {
+      body {
+        background: #000 url("G11/img/bg2.png") center/cover no-repeat scroll;
+      }
+    }
+
+    .backdrop {
+      position: fixed; inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.65));
+      pointer-events: none;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 1.2s ease forwards;
+    }
+
+    header { margin-bottom: 30px; }
+
+    .title {
+      font-size: clamp(1.4rem, 4vw, 2.4rem);
+      text-shadow: 0 2px 18px rgba(0,0,0,0.35);
+      animation: slideDown 1s ease forwards;
+      opacity: 0;
+    }
+    .title strong { color: var(--brand); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      width: min(1000px, 92vw);
+      margin: 0 auto;
+      animation: fadeUp 1s ease forwards;
+      opacity: 0;
+    }
+
+    @media (min-width: 600px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 900px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+    .card {
+      position: relative;
+      display: block;
+      text-decoration: none;
+      color: var(--text-light);
+      background: var(--button-bg);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 18px;
+      padding: 22px 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+      backdrop-filter: blur(6px);
+      transition: transform .3s ease, box-shadow .3s ease, background .3s ease, border-color .3s ease;
+      transform: translateY(20px);
+      opacity: 0;
+      animation: cardFadeIn 0.8s forwards;
+    }
+
+    .card:nth-child(1){ animation-delay: 0.2s; }
+    .card:nth-child(2){ animation-delay: 0.4s; }
+    .card:nth-child(3){ animation-delay: 0.6s; }
+    .card:nth-child(4){ animation-delay: 0.8s; }
+    .card:nth-child(5){ animation-delay: 1s; }
+    .card:nth-child(6){ animation-delay: 1.2s; }
+
+    .card:hover, .card:focus-visible {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 16px 44px rgba(0,0,0,0.45);
+      background: var(--button-bg-hover);
+      border-color: var(--ring);
+      outline: none;
+    }
+
+    .label {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-weight: 800;
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+    }
+
+    .badge {
+      display: inline-grid; place-items: center;
+      width: 38px; height: 38px;
+      border-radius: 10px;
+      background: var(--brand);
+      color: var(--text-dark);
+      font-weight: 900;
+      box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12), 0 6px 16px rgba(255, 201, 0, 0.36);
+    }
+
+    .arrow {
+      position: absolute;
+      right: 16px;
+      bottom: 12px;
+      font-size: 1.2rem;
+      opacity: .9;
+    }
+
+    footer { text-align: center; padding: 16px; color: rgba(255,255,255,0.8); font-size: 0.9rem; }
+    footer a { color: var(--brand); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* Animations */
+    @keyframes fadeIn { from {opacity:0;} to{opacity:1;} }
+    @keyframes slideDown { from {opacity:0; transform: translateY(-30px);} to {opacity:1; transform: translateY(0);} }
+    @keyframes fadeUp { from {opacity:0; transform: translateY(20px);} to {opacity:1; transform: translateY(0);} }
+    @keyframes cardFadeIn { from {opacity:0; transform: translateY(20px);} to {opacity:1; transform: translateY(0);} }
+
+  </style>
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+  <div class="container">
+    <header>
+      <h1 class="title">Grade 11<strong> E- Reports 2025</strong></h1>
+    </header>
+
+    <main>
+      <div class="grid" role="list">
+        <a class="card" role="listitem" href="9A.html"><span class="label"><span class="badge">A</span> Class 11A</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="9B.html"><span class="label"><span class="badge">B</span> Class 11B</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="9C.html"><span class="label"><span class="badge">C</span> Class 11C</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="9D.html"><span class="label"><span class="badge">D</span> Class 11D</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="9E.html"><span class="label"><span class="badge">E</span> Class 11E</span><span class="arrow">→</span></a>
+        <a class="card" role="listitem" href="9F.html"><span class="label"><span class="badge">F</span> Class 11F</span><span class="arrow">→</span></a>
+      </div>
+    </main>
+  </div>
+  <footer style="position: fixed; bottom: 0; left: 0; width: 100%; text-align: center; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(20px); color: #fff; padding: 10px; font-family: sans-serif;">
+  <p style="margin: 0;">Design By - MCG DBMS 2025 ©</p>
+</footer>
+
+</body>
+</html>
+
