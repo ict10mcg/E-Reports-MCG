@@ -15,7 +15,7 @@ document.getElementById("search-btn").addEventListener("click", searchStudent);
         const totalStudents = Object.keys(data).length;
         document.getElementById("student-name").textContent = student.name;
         document.getElementById("total-marks-display").textContent = totalMarks;
-        document.getElementById("place-rank").textContent = `#${student.place} (out of 50)`;
+        document.getElementById("place-rank").textContent = `#${student.place} (out of all student)`;
         document.getElementById("average-marks").textContent = `${averageMarks}%`;
         initChart(student);
         updateGradeDistribution(student);
@@ -227,5 +227,6 @@ function triggerConfetti() {
 
   frame();
 }
+
 
 
