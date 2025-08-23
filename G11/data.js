@@ -620,11 +620,9 @@ const data = {
 
 //ddddddddddddddddddddddddddddddddddddddddd
 
-
-
- "6662": {
+"6662": {
     "name": "Romindu Tharaka Munasinghe",
-    "place": 20,
+    "place": 19,
     "marks": [40, 58, 48, 27, 90, 65, 65, 69, 77],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -673,12 +671,12 @@ const data = {
   "6707": {
     "name": "N.A.Kanishka Vishwadinu",
     "place": 30,
-    "marks": [59, 62, 37, 28, 44, 58, 51, 55, 57],
+    "marks": [59, 68, 37, 28, 44, 58, 51, 55, 57],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6717": {
     "name": "P.L.Sethum Sethvin",
-    "place": 16,
+    "place": 15,
     "marks": [55, 46, 58, 58, 80, 55, 77, 69, 62],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -732,13 +730,13 @@ const data = {
   },
   "6762": {
     "name": "Amath Hansaja Pathirana",
-    "place": 21,
+    "place": 41,
     "marks": [38, 54, 60, 54, 65, 57, 71, 48, 84],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6765": {
     "name": "K.L.Geeneth Sasvindu",
-    "place": 17,
+    "place": 16,
     "marks": [47, 65, 52, 64, 80, 59, 66, 73, 53],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -786,13 +784,13 @@ const data = {
   },
   "6796": {
     "name": "Adil Rankindu Pasqual",
-    "place": 43,
+    "place": 44,
     "marks": [34, 43, 19, 27, 39, 28, 28, 47, 41],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6809": {
     "name": "R.H.Sithum Dulmira",
-    "place": 18,
+    "place": 17,
     "marks": [54, 71, 40, 53, 65, 66, 75, 75, 49],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -810,7 +808,7 @@ const data = {
   },
   "6824": {
     "name": "N.H.W.N.Sashin Jayathunge",
-    "place": 23,
+    "place": 22,
     "marks": [53, 44, 61, 54, 83, 54, 70, 44, 55],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -822,13 +820,13 @@ const data = {
   },
   "6836": {
     "name": "B.G.Lakindu Nethsara",
-    "place": 19,
+    "place": 18,
     "marks": [47, 71, 60, 47, 62, 70, 59, 66, 65],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "6838": {
     "name": "Pamod De Soyza",
-    "place": 21,
+    "place": 20,
     "marks": [53, 66, 49, 27, 56, 66, 66, 75, 73],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -876,7 +874,7 @@ const data = {
   },
   "8971": {
     "name": "L.G.Thasmitha Dinethmin",
-    "place": 25,
+    "place": 24,
     "marks": [43, 57, 51, 67, 77, 46, 55, 43, 74],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
@@ -900,8 +898,8 @@ const data = {
   },
   "9244": {
     "name": "J.L.Thujan Venuja",
-    "place": 15,
-    "marks": [46, 58, 48, 90, 76, 59, 55, 65, 75],
+    "place": 25,
+    "marks": [46, 58, 48, 30, 76, 59, 55, 65, 75],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "9499": {
@@ -1815,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
