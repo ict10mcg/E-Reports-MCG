@@ -1,328 +1,328 @@
 //bbbbb
 const data = {
-  "7543": {
+ "7543": {
     "name": "K.N. Navoda Nithish",
     "place": 52,
     "marks": [26, 37, 26, 5, 37, 32, 17, 21, 48, 3, 55, 1],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7548": {
     "name": "M.A.L. Abhiman Munasinghe",
     "place": 18,
     "marks": [64, 62, 66, 43, 46, 63, 62, 75, 94, 73, 86, 29],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7549": {
     "name": "P.H. Dulna Hansana",
     "place": 33,
-    "marks": [48, 59, 55, 35, 44, 51, 41, 57, 48, 62, 65, 15],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "marks": [48, 59, 55, 35, 44, 51, 41, 57, 47, 62, 65, 15],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7554": {
     "name": "V.I. Ameesh Sandaru",
     "place": 25,
     "marks": [66, 72, 57, 31, 44, 67, 66, 63, 62, 59, 77, 4],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7556": {
     "name": "Risara Ranulaka",
     "place": 24,
     "marks": [57, 84, 62, 40, 42, 73, 47, 73, 71, 25, 86, 14],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7566": {
     "name": "M.R. Dulmeth Nenuka",
     "place": 13,
     "marks": [74, 80, 83, 56, 82, 81, 51, 77, 54, 71, 83, 38],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7571": {
     "name": "J.H. Chamiru Insara Vithana",
     "place": 17,
     "marks": [51, 85, 75, 45, 70, 84, 66, 68, 72, 71, 82, 23],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7575": {
     "name": "S.W. Thirusha Nethsara",
     "place": 14,
     "marks": [73, 78, 68, 68, 62, 81, 58, 72, 70, 81, 83, 23],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7585": {
     "name": "S.L. Vinuka Hansika de Silva",
     "place": 42,
     "marks": [47, 59, 40, 26, 47, 43, 35, 51, 43, 26, 64, 1],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7586": {
     "name": "P. Gayansen Gunasekara",
     "place": 30,
     "marks": [55, 69, 55, 27, 57, 52, 52, 73, 62, 32, 82, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7589": {
     "name": "J.M. Sanuga Gethmira",
     "place": 22,
     "marks": [42, 78, 62, 61, 64, 70, 62, 68, 89, 44, 79, 3],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7595": {
     "name": "A.H. Shenal Ashvin",
     "place": 50,
     "marks": [33, 48, 25, 4, 32, 37, 25, 50, 13, 23, 64, 0],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
-  "7597": {
-    "name": "H.M. Sanula Yehan",
-    "place": 16,
-    "marks": [71, 75, 76, 36, 60, 78, 67, 74, 66, 73, 82, 12],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7600": {
-    "name": "A.P. Sithum Sasen",
-    "place": 12,
-    "marks": [65, 80, 65, 66, 61, 75, 65, 75, 62, 66, 87, 34],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7602": {
-    "name": "B.H. Tharuka Dineth",
-    "place": 43,
-    "marks": [44, 62, 50, 25, 36, 44, 39, 62, 51, 35, 66, 3],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+  "7603": {
+    "name": "D.V. Senura Thejan",
+    "place": 28,
+    "marks": [59, 77, 50, 26, 72, 63, 58, 56, 58, 32, 88, 9],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7604": {
-    "name": "S.D. Dineth Yasandu",
-    "place": 27,
-    "marks": [62, 67, 60, 62, 36, 67, 62, 67, 52, 59, 75, 4],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7605": {
-    "name": "K.M. Tharusha Pethum",
-    "place": 31,
-    "marks": [62, 62, 50, 40, 48, 56, 47, 65, 62, 47, 62, 12],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7606": {
-    "name": "H.K. Pamudu Yehan",
-    "place": 29,
-    "marks": [54, 75, 54, 44, 47, 62, 50, 62, 65, 36, 75, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7607": {
-    "name": "B.A. Dinuja Yehen",
-    "place": 8,
-    "marks": [75, 75, 75, 68, 75, 80, 65, 87, 72, 73, 86, 62],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "name": "T.M. Senarath Yapa",
+    "place": 5,
+    "marks": [97, 90, 90, 72, 82, 79, 75, 80, 68, 79, 93, 86],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7658": {
-    "name": "D.M. Sithumja Dinsara",
+    "name": "M.G. Sanuja Sithilaka",
     "place": 23,
-    "marks": [50, 73, 62, 50, 62, 66, 56, 70, 68, 56, 78, 1],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7662": {
-    "name": "H.G. Senula Nethsara",
-    "place": 28,
-    "marks": [54, 67, 55, 51, 50, 62, 56, 62, 60, 44, 75, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "marks": [57, 69, 64, 42, 59, 66, 43, 59, 57, 70, 83, 24],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7670": {
-    "name": "K.H. Yasanjana",
-    "place": 10,
-    "marks": [74, 80, 72, 64, 65, 78, 66, 78, 73, 75, 86, 36],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7671": {
-    "name": "H.A. Sithum Sanjana",
-    "place": 21,
-    "marks": [60, 77, 66, 44, 62, 67, 62, 73, 62, 59, 77, 6],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7673": {
-    "name": "K.A. Yasith Dilnuka",
-    "place": 6,
-    "marks": [85, 82, 75, 78, 70, 85, 65, 85, 75, 80, 88, 44],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7674": {
-    "name": "H.P. Sithila Nethsara",
-    "place": 11,
-    "marks": [68, 78, 70, 65, 67, 75, 67, 80, 75, 66, 86, 36],
-    "subjects":["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "name": "Onitha Nethvindu",
+    "place": 48,
+    "marks": [42, 46, 36, 14, 42, 28, 25, 51, 0, 24, 62, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7676": {
-    "name": "U.H. Sithija Yenuja",
-    "place": 49,
-    "marks": [36, 58, 44, 23, 36, 46, 44, 55, 44, 36, 62, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7678": {
-    "name": "M.G. Sesandu Nethsara",
-    "place": 34,
-    "marks": [54, 65, 55, 36, 47, 56, 50, 62, 62, 44, 66, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7682": {
-    "name": "K.D. Tharusha Nimsara",
-    "place": 48,
-    "marks": [44, 62, 47, 25, 36, 50, 44, 55, 36, 36, 62, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7684": {
-    "name": "H.A. Sathsara",
-    "place": 32,
-    "marks": [55, 65, 55, 44, 47, 62, 50, 65, 60, 44, 75, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "name": "S.K. Shaveen Theekshana",
+    "place": 16,
+    "marks": [57, 81, 76, 40, 60, 82, 62, 72, 64, 72, 85, 43],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7685": {
-    "name": "P.G. Sithum Binhas",
-    "place": 40,
-    "marks": [50, 62, 50, 36, 44, 56, 47, 62, 50, 44, 66, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "name": "W. Damsuka Dinsath",
+    "place": 26,
+    "marks": [80, 72, 76, 27, 70, 55, 48, 62, 64, 20, 84, 3],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7687": {
-    "name": "H.P. Chamindu Yehan",
-    "place": 5,
-    "marks": [80, 82, 75, 78, 72, 85, 70, 85, 75, 80, 88, 44],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7688": {
-    "name": "P.A. Senum Methsara",
-    "place": 9,
-    "marks": [74, 80, 72, 68, 67, 78, 67, 80, 73, 75, 86, 36],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7690": {
-    "name": "K.M. Sithum Yehan",
-    "place": 4,
-    "marks": [82, 85, 78, 78, 75, 85, 72, 87, 75, 80, 88, 44],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7691": {
-    "name": "H.P. Dineth Sithija",
-    "place": 38,
-    "marks": [50, 65, 50, 36, 44, 56, 47, 62, 51, 35, 67, 9],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
-  },
-  "7695": {
-    "name": "A.P. Tharusha Nethsara",
+    "name": "I. Vihanga Jayasooriya",
     "place": 44,
-    "marks": [44, 62, 50, 25, 36, 44, 39, 62, 36, 35, 66, 3],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "marks": [52, 62, 30, 18, 31, 53, 35, 47, 20, 23, 78, 3],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7697": {
-    "name": "H.G. Minula Yehan",
-    "place": 39,
-    "marks": [50, 62, 50, 36, 44, 56, 47, 62, 50, 44, 66, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "name": "R.M. Yesara Sanvidu Rajapaksha",
+    "place": 40,
+    "marks": [61, 71, 50, 31, 40, 54, 41, 57, 0, 32, 87, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7698": {
-    "name": "K.A. Senuja Yehan",
+    "name": "V. Isara Akarshika Veerasinghe",
+    "place": 49,
+    "marks": [81, null, 84, 53, 66, null, null, 77, null, null, null, null],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7706": {
+    "name": "K. Nulan Nethsara de Silva",
+    "place": 21,
+    "marks": [53, 70, 56, 38, 61, 56, 55, 72, 67, 71, 83, 43],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7714": {
+    "name": "Manuja Dinith Lokuge",
+    "place": 12,
+    "marks": [87, 80, 73, 70, 77, 66, 61, 58, 58, 68, 90, 57],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7732": {
+    "name": "W.S.R. Dheerasekara",
+    "place": 38,
+    "marks": [49, 78, 42, 26, 58, 52, 46, 48, 24, 27, 75, 12],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7733": {
+    "name": "G.M.P. Athapaththu",
+    "place": 8,
+    "marks": [84, 81, 83, 62, 64, 85, 75, 91, 66, 64, 94, 78],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7735": {
+    "name": "A.G. Anuga Mindiya Palliyaguru",
+    "place": 10,
+    "marks": [88, 85, 72, 50, 79, 91, 83, 82, 62, 45, 92, 60],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7742": {
+    "name": "G.G. Nesandu Nimsath Geethanjana",
+    "place": 34,
+    "marks": [41, 67, 50, 47, 57, 38, 32, 54, 47, 63, 72, 8],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7746": {
+    "name": "H.V. Sehansa Amandith",
+    "place": 53,
+    "marks": [null, null, 41, null, 17, null, null, null, null, null, null, null],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7756": {
+    "name": "M.A. Chenul Akmitha",
+    "place": 54,
+    "marks": [null, null, null, null, null, null, null, null, null, null, null, null],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7757": {
+    "name": "S.D. Nithum Manmindu Karunathilaka",
+    "place": 3,
+    "marks": [91, 89, 91, 92, 69, 81, 86, 90, 68, 73, 86, 88],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7772": {
+    "name": "K. Tanuja Indusara",
+    "place": 39,
+    "marks": [37, 72, 50, 37, 45, 43, 58, 75, 0, 43, 68, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7775": {
+    "name": "T.D. Irusha Nimsara",
+    "place": 31,
+    "marks": [54, 72, 50, 24, 34, 44, 57, 77, 56, 74, 56, 4],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7778": {
+    "name": "K.G. Rithilaka Dewdun",
+    "place": 32,
+    "marks": [50, 82, 57, 23, 42, 71, 69, 78, 50, 33, 41, 4],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7784": {
+    "name": "H.W. Niwen Suhasmin",
+    "place": 6,
+    "marks": [88, 90, 92, 71, 74, 89, 78, 94, 87, 68, 93, 58],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7786": {
+    "name": "P.D. Dhanuja Theekshana",
+    "place": 43,
+    "marks": [41, 75, 41, 9, 33, 53, 31, 43, 24, 35, 65, 3],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7791": {
+    "name": "G.L. Anuda Vuthsara",
+    "place": 29,
+    "marks": [36, 81, 70, 23, 56, 52, 41, 70, 70, 70, 72, 2],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
+  },
+  "7793": {
+    "name": "W. Adithya Prabhash Kumara",
     "place": 37,
     "marks": [40, 76, 50, 23, 29, 52, 45, 67, 51, 35, 67, 9],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7797": {
     "name": "P.W. Sadew Nadeemal Jayalath",
     "place": 3,
     "marks": [90, 85, 78, 77, 77, 90, 75, 89, 88, 89, 83, 83],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7806": {
     "name": "D.K. Sathsara de Silva",
     "place": 35,
     "marks": [53, 67, 53, 15, 45, 44, 36, 39, 77, 65, 68, 8],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7816": {
     "name": "K.K. Sadew Himasara",
     "place": 45,
     "marks": [22, 80, 45, 14, 29, 42, 36, 43, 56, 36, 44, 2],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "7819": {
     "name": "G.H. Genura Gangulal",
     "place": 26,
     "marks": [53, 68, 72, 29, 36, 62, 62, 78, 66, 37, 86, 12],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "9467": {
     "name": "P.G. Yenula Sandeepa",
     "place": 36,
     "marks": [61, 80, 70, 36, 49, 43, 59, 78, 0, 31, 58, 4],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "9498": {
     "name": "K.N.T. Hasaral Pabasara",
     "place": 51,
     "marks": [44, 73, 35, 24, 30, 20, 19, 36, 0, 32, 27, 3],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10217": {
     "name": "M. Bingun Nimnada",
     "place": 47,
-    "marks": [0, 84, 0, 48, 55, 31, 55, 0, 54, 38, 67, 10],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "marks": [null, 84, null, 48, 55, 31, 55, null, 54, 38, 67, 10],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10244": {
     "name": "K.K. Sanuga Nethmina",
     "place": 7,
     "marks": [81, 78, 74, 82, 72, 97, 88, 91, 68, 88, 85, 40],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10256": {
     "name": "A.A. Kenul Dewnula",
     "place": 1,
     "marks": [89, 94, 83, 91, 91, 99, 90, 96, 100, 94, 98, 90],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10262": {
     "name": "J.G. Akinda Sandayuru",
     "place": 11,
     "marks": [77, 89, 80, 38, 70, 90, 54, 76, 80, 87, 64, 62],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10264": {
     "name": "D. Sithuka Akarshana Bogahawatta",
     "place": 19,
     "marks": [72, 74, 73, 61, 74, 61, 56, 78, 53, 35, 82, 39],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10848": {
     "name": "L.P. Bavindu Senuja",
     "place": 9,
-    "marks": [73, 85, 63, 87, 65, 73, 75, 87, 86, 88, 99, 16],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "marks": [73, 85, 63, 87, 75, 73, 75, 87, 86, 88, 99, 16],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "10850": {
     "name": "A.A. Senula Dinhas",
     "place": 2,
     "marks": [80, 88, 90, 78, 78, 92, 76, 89, 93, 81, 96, 66],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "12124": {
     "name": "E. Thushan Nethsara",
     "place": 46,
     "marks": [40, 68, 55, 6, 12, 25, 36, 55, 48, 29, 62, 12],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "12128": {
     "name": "H.A. Anuja Himansana",
     "place": 41,
     "marks": [41, 68, 44, 13, 23, 44, 46, 52, 60, 41, 53, 3],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "12132": {
     "name": "Thumira Sadil Udatiyawala",
     "place": 15,
     "marks": [70, 84, 84, 65, 68, 84, 80, 79, 58, 34, 80, 26],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   "12137": {
     "name": "W. Manula Sacheth Damdila",
     "place": 20,
     "marks": [81, 75, 47, 67, 30, 95, 82, 89, 55, 42, 73, 5],
-    "subjects": ["Buddhism", "Sinhala ", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health.", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetic", "PTS", "Health", "Tamil"]
   },
   //cccccccccccccccccccccccc
   
