@@ -866,56 +866,272 @@ const data = {
     "name": "K.L.S.Silva",
     "place": 36,
     "marks": [74, 76, 82, 25, 39, 65, 48, 55, 51, 73, 56, 1],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+{
+  "7545": {
+    "name": "J.K.Rabindu",
+    "place": 17,
+    "marks": [83, 91, 92, 76, 70, 79, 55, 70, 69, 85, 72, 50],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7558": {
+    "name": "H.Sesara",
+    "place": 31,
+    "marks": [65, 68, 80, 48, 61, 60, 51, 35, 87, 67, 69, 42],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7573": {
+    "name": "U.A.N.Dulran",
+    "place": 5,
+    "marks": [89, 91, 92, 92, 89, 87, 80, 91, 84, 95, 88, 67],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7579": {
+    "name": "L.T.Ukwaththa",
+    "place": 21,
+    "marks": [62, 87, 87, 77, 55, 75, 60, 70, 59, 86, 74, 44],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7582": {
+    "name": "S.M.Ponnapperuma",
+    "place": 40,
+    "marks": [45, 35, 88, 50, 45, 59, 49, 50, 12, 30, 75, 3],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7591": {
+    "name": "M.Nethvindu",
+    "place": 28,
+    "marks": [63, 85, 86, 67, 59, 73, 49, 60, 94, 28, 72, 5],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7600": {
+    "name": "D.S.M.Vihas",
+    "place": 23,
+    "marks": [76, 76, 86, 51, 70, 78, 60, 71, 53, 90, 84, 12],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7606": {
+    "name": "L.A.D.Dihein",
+    "place": 16,
+    "marks": [77, 82, 87, 87, 94, 73, 61, 85, 76, 89, 73, 20],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7662": {
+    "name": "D.C.S.S.Soysa",
+    "place": 11,
+    "marks": [81, 87, 83, 83, 64, 82, 85, 76, 56, 80, 86, 59],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7666": {
+    "name": "K.A.B.Binal",
+    "place": 4,
+    "marks": [92, 96, 81, 99, 93, 91, 82, 91, 89, 93, 95, 49],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7667": {
+    "name": "K.K.G.M.Mandinu",
+    "place": 33,
+    "marks": [54, 78, 84, 51, 67, 62, 48, 63, 66, 68, 67, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7671": {
+    "name": "B.P.Wijewardhana",
+    "place": 34,
+    "marks": [52, 83, 93, 53, 76, 42, 44, 57, 66, 24, 61, 27],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7673": {
+    "name": "H.R.T.Diyanethu",
+    "place": 10,
+    "marks": [70, 96, 90, 76, 82, 92, 89, 70, 92, 92, 96, 56],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7688": {
+    "name": "K.P.V.I.Kodippili",
+    "place": 29,
+    "marks": [78, 66, 82, 61, 43, 54, 44, 60, 91, 31, 86, 44],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7695": {
+    "name": "K.R.Senewirathna",
+    "place": 12,
+    "marks": [86, 85, 94, 84, 77, 82, 76, 81, 77, 82, 83, 11],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7699": {
+    "name": "I.W.G.A.S.Viboo",
+    "place": 38,
+    "marks": [59, 72, 84, 24, 52, 70, 32, 45, 23, 68, 59, 3],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7702": {
+    "name": "N.C.Wanniarachchi",
+    "place": 12,
+    "marks": [86, 89, 88, 68, 64, 83, 76, 70, 92, 90, 76, 36],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7704": {
+    "name": "K.H.B.Induwara",
+    "place": 43,
+    "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7710": {
+    "name": "S.M.Bandara",
+    "place": 19,
+    "marks": [66, 71, 83, 67, 75, 81, 56, 54, 64, 83, 75, 75],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7718": {
+    "name": "B.S.D.Wijenayake",
+    "place": 7,
+    "marks": [88, 80, 89, 93, 91, 85, 91, 88, 85, 91, 90, 71],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7718": {
+    "name": "R.E.Lithum",
+    "place": 2,
+    "marks": [94, 97, 96, 94, 85, 86, 88, 92, 88, 91, 91, 80],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7723": {
+    "name": "G.L.D.B.Nanayakkara",
+    "place": 37,
+    "marks": [71, 71, 82, 37, 38, 60, 27, 30, 65, 79, 53, 26],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7743": {
+    "name": "V.Godakandarachchi",
+    "place": 30,
+    "marks": [67, 75, 84, 54, 51, 71, 62, 63, 77, 63, 26, 46],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7744": {
+    "name": "D.L.P.S.Wijewardhana",
+    "place": 20,
+    "marks": [73, 80, 77, 65, 73, 83, 76, 54, 58, 78, 81, 41],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7752": {
+    "name": "K.Liyanage",
+    "place": 23,
+    "marks": [83, 91, 77, 48, 64, 80, 80, 51, 81, 80, 70, 2],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7760": {
+    "name": "W.A.P.N.Weerarathna",
+    "place": 43,
+    "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7761": {
+    "name": "S.D.Pathirana",
+    "place": 17,
+    "marks": [83, 80, 91, 60, 46, 90, 75, 86, 89, 86, 86, 20],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7762": {
+    "name": "M.D.Gamage",
+    "place": 42,
+    "marks": [66, 0, 80, 0, 0, 0, 0, 48, 0, 0, 0, 0],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7763": {
+    "name": "A.H.L.P.Silva",
+    "place": 27,
+    "marks": [78, 87, 75, 70, 71, 58, 45, 55, 65, 83, 50, 21],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7768": {
+    "name": "H.K.D.Hansaka",
+    "place": 32,
+    "marks": [73, 83, 80, 22, 45, 79, 32, 51, 60, 82, 72, 41],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7807": {
+    "name": "W.B.Dulkith",
+    "place": 14,
+    "marks": [82, 88, 85, 70, 74, 85, 64, 75, 75, 89, 80, 50],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "7811": {
+    "name": "S.P.I.Sandasara",
+    "place": 9,
+    "marks": [100, 88, 97, 86, 84, 96, 85, 81, 73, 88, 83, 46],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "8417": {
+    "name": "H.P.D.Sandaka",
+    "place": 1,
+    "marks": [95, 98, 94, 97, 94, 98, 91, 96, 94, 98, 97, 85],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "8429": {
+    "name": "D.L.K.Dharmawansha",
+    "place": 23,
+    "marks": [90, 91, 79, 29, 52, 80, 75, 72, 59, 86, 85, 9],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "8924": {
+    "name": "D.L.W.J.B.Dinadith",
+    "place": 39,
+    "marks": [36, 77, 78, 38, 30, 66, 39, 30, 53, 43, 61, 4],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
+  },
+  "9381": {
+    "name": "K.L.S.Silva",
+    "place": 36,
+    "marks": [74, 76, 82, 25, 39, 65, 48, 55, 51, 73, 56, 1],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "9457": {
     "name": "N.H.K.Vageesha",
     "place": 41,
     "marks": [35, 55, 70, 51, 30, 42, 34, 32, 7, 60, 62, 6],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "10243": {
     "name": "K.B.D.Udayanga",
     "place": 6,
     "marks": [91, 94, 91, 93, 86, 86, 80, 90, 77, 99, 90, 66],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "10251": {
     "name": "B.G.Y.Nethmira",
     "place": 15,
     "marks": [80, 93, 88, 75, 64, 74, 54, 80, 83, 91, 73, 50],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "10253": {
     "name": "E.A.M.Alahakoon",
     "place": 3,
     "marks": [89, 94, 93, 95, 78, 99, 89, 93, 88, 90, 96, 58],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "10255": {
     "name": "W.G.N.Manuijith",
     "place": 35,
     "marks": [73, 77, 80, 36, 51, 76, 60, 35, 22, 52, 80, 17],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "10841": {
     "name": "N.K.Sanumitha",
     "place": 22,
     "marks": [77, 85, 79, 27, 58, 83, 50, 68, 77, 82, 75, 62],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "11516": {
     "name": "U.G.C.Adeesha",
     "place": 8,
     "marks": [95, 91, 82, 70, 76, 95, 78, 85, 79, 91, 86, 84],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
   "12138": {
     "name": "G.Sithum Udeesha",
     "place": 26,
     "marks": [67, 77, 77, 47, 58, 75, 60, 65, 61, 79, 83, 31],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health Education", "Tamil"]
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "PTS", "Health", "Tamil"]
   },
+
 
  //eeeeeeeeeeeeeeeeeeeeeeeeeee
  
