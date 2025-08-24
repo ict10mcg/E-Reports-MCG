@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Search</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url("img/bg.png") center/cover no-repeat fixed;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: 40px;
+    }
+
+    .glass {
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 20px;
+      width: 80%;
+      max-width: 900px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+      margin-bottom: 20px;
+      outline: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      text-align: left;
+    }
+
+    th {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    tr:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="glass">
+    <input type="text" id="search" placeholder="Search by number, name or place range (e.g., 1-100 or 50-)">
+    <table>
+      <thead>
+        <tr>
+          <th>Place</th>
+          <th>Number</th>
+          <th>Name</th>
+          <th>Class</th>
+          <th>Total Marks</th>
+        </tr>
+      </thead>
+      <tbody id="results"></tbody>
+    </table>
+  </div>
+
+  <script src="dataall.js"></script>
+  <script>
+    // Convert object to array and rank students
+    let students = Object.entries(data).map(([num, s]) => ({
+      number: num,
+      ...s
+    }));
+
+    // Sort by total desc
+    students.sort((a, b) => b.total - a.total);
+
+    // Assign ranks with skipping
+    let lastTotal = null, place = 0, count = 0;
+    students.forEach(stu => {
+      count++;
+      if (stu.total !== lastTotal) {
+        place = count;
+        lastTotal = stu.total;
+      }
+      stu.place = place;
+    });
+
+    const resultsEl = document.getElementById("results");
+    const searchEl = document.getElementById("search");
+
+    function renderResults(list) {
+      resultsEl.innerHTML = "";
+      if (list.length === 0) {
+        resultsEl.innerHTML = `<tr><td colspan="5">No results found</td></tr>`;
+        return;
+      }
+      list.forEach(s => {
+        resultsEl.innerHTML += `
+          <tr>
+            <td>${s.place}</td>
+            <td>${s.number}</td>
+            <td>${s.name}</td>
+            <td>${s.class}</td>
+            <td>${s.total}</td>
+          </tr>
+        `;
+      });
+    }
+
+    searchEl.addEventListener("input", () => {
+      const q = searchEl.value.trim().toLowerCase();
+      if (!q) { resultsEl.innerHTML = ""; return; }
+
+      let results = [];
+
+      // Check for range format
+      if (/^\d+-\d+$/.test(q)) {
+        let [min, max] = q.split("-").map(Number);
+        results = students.filter(s => s.place >= min && s.place <= max);
+      } 
+      else if (/^\d+-$/ .test(q)) {
+        let min = parseInt(q);
+        results = students.filter(s => s.place >= min);
+      } 
+      else if (/^\d+$/.test(q)) {
+        // Search by number or place
+        results = students.filter(s => s.number.includes(q) || s.place == q);
+      } 
+      else {
+        // Search by name
+        results = students.filter(s => s.name.toLowerCase().includes(q));
+      }
+
+      renderResults(results);
+    });
+  </script>
+</body>
+</html>
