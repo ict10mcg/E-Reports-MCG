@@ -1076,350 +1076,350 @@ const data = {
     "class": "11E",
     "marks": [81, 66, 85, 60, 54, 70, 56, 70, 78],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 620
+    "total": 620
   },
   "6660": {
     "name": "Pahan Gamage",
     "class": "11E",
     "marks": [52, 54, 87, 57, 40, 49, 47, 59, 81],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 526
+    "total": 526
   },
   "6666": {
     "name": "M Sanmitha Suhaswin",
     "class": "11E",
     "marks": [73, 71, 82, 67, 52, 74, 73, 76, 50],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 618
+    "total": 618
   },
   "6673": {
     "name": "V G Yuthika Damsara",
     "class": "11E",
     "marks": [50, 56, 75, 43, 42, 53, 51, 30, 59],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 459
+    "total": 459
   },
   "6678": {
     "name": "H G A Sasen Dewmith",
     "class": "11E",
     "marks": [87, 81, 94, 90, 74, 79, 85, 78, 94],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 762
+    "total": 762
   },
   "6691": {
     "name": "Savindu Vonal",
     "class": "11E",
     "marks": [74, 74, 91, 43, 41, 64, 41, 70, 86],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 584
+    "total": 584
   },
   "6692": {
     "name": "A S K W Dahanayaka",
     "class": "11E",
     "marks": [34, 33, 86, 33, 42, 33, 32, 41, 54],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 388
+    "total": 388
   },
   "6696": {
     "name": "Tinal Prabuddha",
     "class": "11E",
     "marks": [48, 45, 71, 50, 35, 44, 65, 68, 50],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 476
+    "total": 476
   },
   "6700": {
     "name": "Siluna Randive",
     "class": "11E",
     "marks": [81, 85, 92, 83, 77, 80, 99, 76, 88],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 761
+    "total": 761
   },
   "6701": {
     "name": "K D Thejana De Silva",
     "class": "11E",
     "marks": [53, 66, 86, 62, 40, 61, 39, 52, 65],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 524
+    "total": 524
   },
   "6706": {
     "name": "Ulindu Pahasara",
     "class": "11E",
     "marks": [78, 0, 90, 0, 0, 0, 0, 0, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 168
+    "total": 168
   },
   "6716": {
     "name": "U L Arshana Indoopa",
     "class": "11E",
     "marks": [84, 80, 87, 84, 63, 82, 94, 60, 76],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 710
+    "total": 710
   },
   "6722": {
     "name": "K A Savindu Sasmin",
     "class": "11E",
     "marks": [80, 77, 88, 85, 76, 75, 76, 82, 82],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 721
+    "total": 721
   },
   "6723": {
     "name": "Dhanuja Senumith",
     "class": "11E",
     "marks": [73, 55, 80, 64, 61, 70, 62, 66, 67],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 598
+    "total": 598
   },
   "6741": {
     "name": "Dithira Jayasinghe",
     "class": "11E",
     "marks": [69, 72, 85, 67, 57, 79, 62, 62, 72],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 625
+    "total": 625
   },
   "6743": {
     "name": "Osada Waidayathilaka",
     "class": "11E",
     "marks": [86, 79, 85, 86, 66, 76, 76, 56, 87],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 697
+    "total": 697
   },
   "6749": {
     "name": "S K Saniru Diyath",
     "class": "11E",
     "marks": [92, 75, 90, 80, 72, 85, 86, 76, 84],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 740
+    "total": 740
   },
   "6750": {
     "name": "Thisal Attanayake",
     "class": "11E",
     "marks": [49, 54, 83, 62, 28, 48, 56, 22, 66],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 468
+    "total": 468
   },
   "6764": {
     "name": "Denuwan Punchihewa",
     "class": "11E",
     "marks": [76, 55, 83, 76, 48, 60, 47, 43, 57],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 545
+    "total": 545
   },
   "6769": {
     "name": "Venuka Damsara",
     "class": "11E",
     "marks": [82, 75, 87, 92, 76, 86, 87, 77, 90],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 752
+    "total": 752
   },
   "6770": {
     "name": "Senuka Chandunu",
     "class": "11E",
     "marks": [89, 73, 93, 83, 71, 72, 80, 80, 86],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 727
+    "total": 727
   },
   "6776": {
     "name": "Nethma Nallaperuma",
     "class": "11E",
     "marks": [48, 53, 80, 46, 32, 54, 44, 50, 76],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 483
+    "total": 483
   },
   "6775": {
     "name": "Senila Hansana (●'◡'●)",
     "class": "11E",
     "marks": [68, 52, 74, 34, 34, 23, 67, 50, 27],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 429
+    "total": 429
   },
   "6781": {
     "name": "Sithuka Methdina",
     "class": "11E",
     "marks": [88, 70, 83, 66, 55, 71, 92, 73, 60],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 658
+    "total": 658
   },
   "6784": {
     "name": "Chanindu Shaluka",
     "class": "11E",
     "marks": [90, 83, 89, 94, 70, 83, 90, 71, 90],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 760
+    "total": 760
   },
   "6789": {
     "name": "Y N Pathiranage",
     "class": "11E",
     "marks": [84, 82, 89, 83, 63, 76, 63, 75, 80],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 695
+    "total": 695
   },
   "6793": {
     "name": "Sanuka Vithanage",
     "class": "11E",
     "marks": [64, 56, 88, 91, 59, 70, 76, 78, 81],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 663
+    "total": 663
   },
   "6797": {
     "name": "Yenuka Dulin",
     "class": "11E",
     "marks": [98, 81, 90, 94, 83, 76, 92, 68, 78],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 760
+    "total": 760
   },
   "6800": {
     "name": "Kisara Kalmira",
     "class": "11E",
     "marks": [97, 83, 90, 76, 62, 85, 80, 80, 68],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 721
+    "total": 721
   },
   "6802": {
     "name": "Jonathan Suhas",
     "class": "11E",
     "marks": [78, 75, 93, 64, 67, 75, 80, 84, 79],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 695
+    "total": 695
   },
   "6812": {
     "name": "Sethindu Damsas",
     "class": "11E",
     "marks": [89, 75, 85, 73, 62, 68, 80, 62, 75],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 669
+    "total": 669
   },
   "6849": {
     "name": "Nimsara Gimhan",
     "class": "11E",
     "marks": [84, 75, 85, 77, 58, 80, 89, 59, 70],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 677
+    "total": 677
   },
   "6856": {
     "name": "M H G Yasaru",
     "class": "11E",
     "marks": [90, 82, 89, 93, 79, 78, 91, 80, 91],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 773
+    "total": 773
   },
   "6863": {
     "name": "H K Randesh Nuwaneth",
     "class": "11E",
     "marks": [82, 73, 86, 75, 69, 87, 75, 83, 68],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 698
+    "total": 698
   },
   "6922": {
     "name": "Kaviru Wagachchi",
     "class": "11E",
     "marks": [83, 86, 94, 99, 84, 87, 90, 83, 91],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 797
+    "total": 797
   },
   "7824": {
     "name": "Videw Vinsara Abeysinghe",
     "class": "11E",
     "marks": [83, 67, 89, 81, 83, 83, 85, 65, 72],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 708
+    "total": 708
   },
   "7989": {
     "name": "Senuwara Dinudika",
     "class": "11E",
     "marks": [84, 67, 88, 83, 79, 64, 69, 61, 78],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 673
+    "total": 673
   },
   "8914": {
     "name": "D S K Wanniarachchi",
     "class": "11E",
     "marks": [0, 27, 85, 75, 51, 0, 34, 41, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 313
+    "total": 313
   },
   "8973": {
     "name": "Akein Kulatunga",
     "class": "11E",
     "marks": [89, 69, 83, 68, 41, 77, 78, 48, 83],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 636
+    "total": 636
   },
   "8976": {
     "name": "Senuka Nimsara",
     "class": "11E",
     "marks": [70, 47, 78, 45, 33, 43, 75, 51, 0],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 442
+    "total": 442
   },
   "8985": {
     "name": "Sanula Nethmira",
     "class": "11E",
     "marks": [96, 83, 88, 73, 73, 74, 83, 75, 73],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 718
+    "total": 718
   },
   "8987": {
     "name": "Suvin Sasvindu",
     "class": "11E",
     "marks": [53, 63, 86, 85, 56, 59, 84, 65, 66],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 617
+    "total": 617
   },
   "9012": {
     "name": "M M C D Nimsilu",
     "class": "11E",
     "marks": [92, 68, 90, 93, 75, 71, 71, 67, 86],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 713
+    "total": 713
   },
   "9237": {
     "name": "Savidu Nethmika",
     "class": "11E",
     "marks": [89, 68, 89, 72, 57, 66, 80, 71, 76],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 668
+    "total": 668
   },
   "9249": {
     "name": "K Sanith Netharu",
     "class": "11E",
     "marks": [67, 72, 79, 72, 48, 52, 56, 40, 65],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 551
+    "total": 551
   },
   "9256": {
     "name": "Vihanga Sonal Gangabada",
     "class": "11E",
     "marks": [72, 75, 91, 82, 70, 52, 76, 69, 77],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 664
+    "total": 664
   },
   "9281": {
     "name": "O K D S Dinuwara",
     "class": "11E",
     "marks": [95, 89, 88, 98, 82, 76, 93, 80, 94],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 795
+    "total": 795
   },
   "9503": {
     "name": "K G D B Jayasekara",
     "class": "11E",
     "marks": [73, 74, 92, 84, 73, 70, 90, 75, 87],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 718
+    "total": 718
   },
   "10328": {
     "name": "K P H Pathmin",
     "class": "11E",
     "marks": [80, 70, 80, 63, 50, 72, 65, 66, 77],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 623
+    "total": 623
   },
   "10718": {
     "name": "K P Dhasas Ranthusa",
     "class": "11E",
     "marks": [52, 83, 88, 43, 38, 47, 50, 46, 69],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
-    "total_marks": 516
+    "total": 516
   },
 
 
@@ -1431,329 +1431,329 @@ const data = {
     "class": "11C",
     "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 0
+    "total": 0
   },
   "6667": {
     "name": "P.L.SANDARU HESHAN",
     "class": "11C",
     "marks": [14, 15, 32, 15, 40, 30, 26, 33, 34],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 239
+    "total": 239
   },
   "6670": {
     "name": "SANDIRA ARAMBAWELA",
     "class": "11C",
     "marks": [21, 30, 28, 31, 48, 30, 32, 54, 33],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 307
+    "total": 307
   },
   "6683": {
     "name": "CHAMATH SASIDU LIYANAGE",
     "class": "11C",
     "marks": [33, 44, 14, 25, 50, 43, 50, 69, 24],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 352
+    "total": 352
   },
   "6693": {
     "name": "A.KESARA SUMANASEKARA",
     "class": "11C",
     "marks": [14, 17, 29, 3, 43, 32, 28, 0, 19],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 185
+    "total": 185
   },
   "6695": {
     "name": "L.L.DHARANA HANSAJA",
     "class": "11C",
     "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 0
+    "total": 0
   },
   "6698": {
     "name": "H.R.S. THEHAN",
     "class": "11C",
     "marks": [50, 57, 32, 41, 78, 49, 52, 47, 47],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 453
+    "total": 453
   },
   "6703": {
     "name": "I. HIMAL WEERATHUNGA",
     "class": "11C",
     "marks": [37, 44, 43, 23, 55, 49, 34, 41, 44],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 370
+    "total": 370
   },
   "6709": {
     "name": "SAVIRU THUDUWAGE",
     "class": "11C",
     "marks": [75, 77, 75, 86, 86, 87, 88, 86, 82],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 742
+    "total": 742
   },
   "6731": {
     "name": "S.A.O. SENITH PINSARA",
     "class": "11C",
     "marks": [29, 33, 19, 14, 40, 47, 34, 62, 40],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 318
+    "total": 318
   },
   "6737": {
     "name": "U.P.G.MALEESHA MANDEL",
     "class": "11C",
     "marks": [49, 55, 39, 32, 46, 61, 30, 52, 46],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 410
+    "total": 410
   },
   "6745": {
     "name": "D.D.ADEESHA DESHAPRIYA",
     "class": "11C",
     "marks": [21, 39, 39, 49, 71, 29, 52, 39, 61],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 400
+    "total": 400
   },
   "6756": {
     "name": "P.MADHUSHAN",
     "class": "11C",
     "marks": [37, 55, 38, 11, 54, 58, 50, 38, 53],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 394
+    "total": 394
   },
   "6760": {
     "name": "S. LIYON PATTERNOT",
     "class": "11C",
     "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 0
+    "total": 0
   },
   "6780": {
     "name": "BINARA W. WEERASEKARA",
     "class": "11C",
     "marks": [76, 86, 53, 81, 84, 74, 75, 72, 88],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 689
+    "total": 689
   },
   "6803": {
     "name": "R.T. THEEKSHANA",
     "class": "11C",
     "marks": [44, 43, 33, 26, 62, 62, 60, 71, 44],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 445
+    "total": 445
   },
   "6805": {
     "name": "S.Y. SAUMYA SANKAPALA",
     "class": "11C",
     "marks": [8, 28, 27, 20, 57, 46, 19, 24, 20],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 249
+    "total": 249
   },
   "6807": {
     "name": "A.G.THIMIRA UTHPALA",
     "class": "11C",
     "marks": [37, 0, 0, 25, 53, 49, 35, 25, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 224
+    "total": 224
   },
   "6806": {
     "name": "N.P.M. PIYUSHA",
     "class": "11C",
     "marks": [60, 54, 26, 59, 76, 71, 62, 16, 59],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 483
+    "total": 483
   },
   "6810": {
     "name": "DINAL RAVEEN PANDITHA",
     "class": "11C",
     "marks": [35, 40, 25, 17, 47, 46, 49, 10, 34],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 303
+    "total": 303
   },
   "6816": {
     "name": "W.W.K. GITHMAL",
     "class": "11C",
     "marks": [40, 65, 40, 0, 72, 65, 68, 43, 47],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 440
+    "total": 440
   },
   "6818": {
     "name": "VIDURAVI NADEEJA",
     "class": "11C",
     "marks": [16, 29, 23, 7, 49, 42, 27, 0, 40],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 233
+    "total": 233
   },
   "6832": {
     "name": "K.P. PUNARA PRAMOD",
     "class": "11C",
     "marks": [63, 70, 44, 69, 69, 59, 63, 58, 72],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 567
+    "total": 567
   },
   "6835": {
     "name": "H.A. RASHINTHA",
     "class": "11C",
     "marks": [40, 54, 26, 39, 62, 45, 53, 60, 28],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 407
+    "total": 407
   },
   "6840": {
     "name": "H.W. CHANUGA NETHVIDU",
     "class": "11C",
     "marks": [34, 58, 34, 38, 55, 44, 37, 35, 63],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 398
+    "total": 398
   },
   "6847": {
     "name": "G.H.H. RUKSHAN",
     "class": "11C",
     "marks": [67, 60, 44, 54, 49, 63, 62, 70, 55],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 524
+    "total": 524
   },
   "6848": {
     "name": "K.H.S. HENULA",
     "class": "11C",
     "marks": [70, 56, 39, 77, 70, 50, 75, 75, 73],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 585
+    "total": 585
   },
   "6855": {
     "name": "S.W. BINUK NUPURA",
     "class": "11C",
     "marks": [41, 46, 37, 48, 72, 51, 66, 19, 66],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 446
+    "total": 446
   },
   "8282": {
     "name": "K.D.A. ANUHAS",
     "class": "11C",
     "marks": [39, 48, 41, 31, 44, 43, 71, 48, 37],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 402
+    "total": 402
   },
   "8421": {
     "name": "M. SUWAHAS PATHUM",
     "class": "11C",
     "marks": [37, 65, 59, 54, 70, 67, 52, 40, 41],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 485
+    "total": 485
   },
   "8968": {
     "name": "J.K.J. BASITHA",
     "class": "11C",
     "marks": [65, 73, 57, 70, 73, 75, 67, 50, 92],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 622
+    "total": 622
   },
   "8970": {
     "name": "K.W.S. YANULA",
     "class": "11C",
     "marks": [85, 75, 71, 82, 86, 80, 76, 95, 88],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 738
+    "total": 738
   },
   "8977": {
     "name": "K. NIKESH PEHESARA",
     "class": "11C",
     "marks": [46, 42, 54, 27, 54, 0, 82, 0, 68],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 373
+    "total": 373
   },
   "8982": {
     "name": "H.G.T. CHANKETH",
     "class": "11C",
     "marks": [79, 71, 75, 86, 93, 77, 69, 92, 82],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 724
+    "total": 724
   },
   "8986": {
     "name": "SANDARU PARANAVITHANA",
     "class": "11C",
     "marks": [72, 85, 69, 93, 79, 84, 87, 91, 83],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 743
+    "total": 743
   },
   "8995": {
     "name": "A.G.G. NIMDINU",
     "class": "11C",
     "marks": [78, 82, 73, 98, 87, 86, 97, 65, 86],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 752
+    "total": 752
   },
   "9000": {
     "name": "G.V.DINAL SENUMITHA",
     "class": "11C",
     "marks": [78, 78, 66, 66, 78, 84, 75, 81, 83],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 689
+    "total": 689
   },
   "9003": {
     "name": "P.A.S.V.M.ABHILASH",
     "class": "11C",
     "marks": [59, 65, 52, 56, 69, 63, 95, 53, 71],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 583
+    "total": 583
   },
   "9008": {
     "name": "K.G.GANGUL INDUWARA",
     "class": "11C",
     "marks": [72, 69, 58, 47, 71, 60, 90, 40, 73],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 580
+    "total": 580
   },
   "9010": {
     "name": "G.P.SANDESH NETHSARA",
     "class": "11C",
     "marks": [73, 73, 51, 46, 76, 71, 88, 28, 70],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 576
+    "total": 576
   },
   "9016": {
     "name": "K.G. NETHTHARU SANDIYA",
     "class": "11C",
     "marks": [72, 71, 37, 60, 80, 71, 83, 23, 83],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 580
+    "total": 580
   },
   "9239": {
     "name": "SAVIRU R. AKURUGODA",
     "class": "11C",
     "marks": [77, 74, 49, 80, 78, 84, 93, 89, 85],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 709
+    "total": 709
   },
   "9243": {
     "name": "Y.L. SENAL NEWANJANA",
     "class": "11C",
     "marks": [85, 75, 69, 70, 75, 55, 78, 82, 85],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 674
+    "total": 674
   },
   "9245": {
     "name": "N.W.A.L.SATHVIRU",
     "class": "11C",
     "marks": [83, 75, 81, 90, 84, 86, 79, 91, 86],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 755
+    "total": 755
   },
   "9248": {
     "name": "SATHDISA DE SILVA",
     "class": "11C",
     "marks": [71, 81, 23, 82, 89, 71, 80, 77, 77],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 651
+    "total": 651
   },
   "9501": {
     "name": "HIRUN S.L. JAYAWARDANA",
     "class": "11C",
     "marks": [63, 63, 31, 43, 61, 61, 57, 20, 47],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 446
+    "total": 446
   },
   "9995": {
     "name": "G.P.A.SANDEEPA",
     "class": "11C",
     "marks": [42, 52, 50, 21, 57, 50, 51, 24, 39],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 386
+    "total": 386
   },
 
 
@@ -1766,338 +1766,338 @@ const data = {
     "class": "11F",
     "marks": [34, 44, 26, 31, 55, 37, 40, 18, 46],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 331
+    "total": 331
   },
   "6669": {
     "name": "S.A.K.H.DINSARA",
     "class": "11F",
     "marks": [0, 31, 0, 24, 52, 26, 43, 0, 50],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 226
+    "total": 226
   },
   "6672": {
     "name": "L.METHUKA MANHIRU",
     "class": "11F",
     "marks": [55, 35, 45, 90, 92, 22, 80, 65, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 484
+    "total": 484
   },
   "6674": {
     "name": "K.L.M. MATHEESHA",
     "class": "11F",
     "marks": [56, 64, 49, 65, 71, 60, 76, 58, 80],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 579
+    "total": 579
   },
   "6675": {
     "name": "D. PANCHALA ANUHAS",
     "class": "11F",
     "marks": [40, 34, 34, 28, 68, 0, 41, 0, 75],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 320
+    "total": 320
   },
   "6677": {
     "name": "M.H.DIDULA SASADARA",
     "class": "11F",
     "marks": [35, 47, 26, 62, 64, 26, 50, 38, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 348
+    "total": 348
   },
   "6679": {
     "name": "A.H.ASHEN CHATHURANGA",
     "class": "11F",
     "marks": [65, 38, 26, 56, 47, 36, 49, 65, 56],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 438
+    "total": 438
   },
   "6682": {
     "name": "W.K.NETHIL SADIKA",
     "class": "11F",
     "marks": [12, 28, 25, 77, 93, 18, 59, 0, 39],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 351
+    "total": 351
   },
   "6702": {
     "name": "B.H. SADEESHA RASHMIKA",
     "class": "11F",
     "marks": [49, 47, 37, 61, 67, 53, 46, 61, 64],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 485
+    "total": 485
   },
   "6705": {
     "name": "L.M. SADEESHA NETHSARA",
     "class": "11F",
     "marks": [37, 55, 39, 34, 46, 43, 47, 51, 67],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 419
+    "total": 419
   },
   "6708": {
     "name": "L.V.M. AMOD NEVINDA",
     "class": "11F",
     "marks": [53, 55, 44, 47, 75, 62, 76, 55, 61],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 528
+    "total": 528
   },
   "6710": {
     "name": "L.V.D. CHAMOD RASHMIKA",
     "class": "11F",
     "marks": [51, 57, 38, 61, 75, 38, 51, 66, 60],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 497
+    "total": 497
   },
   "6714": {
     "name": "O. RANDINU MALALAGODA",
     "class": "11F",
     "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 0
+    "total": 0
   },
   "6733": {
     "name": "W.W. SADALU YASHINTHA",
     "class": "11F",
     "marks": [49, 46, 46, 60, 69, 53, 52, 27, 48],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 450
+    "total": 450
   },
   "6734": {
     "name": "D.A.I. YASHAN KALHARA",
     "class": "11F",
     "marks": [32, 35, 42, 0, 67, 49, 51, 0, 26],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 302
+    "total": 302
   },
   "6736": {
     "name": "B.RASHMIKA SANKALANA",
     "class": "11F",
     "marks": [7, 26, 17, 8, 20, 22, 27, 13, 30],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 170
+    "total": 170
   },
   "6739": {
     "name": "D.G. NOMIN YUTHMIKA",
     "class": "11F",
     "marks": [40, 28, 26, 54, 50, 27, 46, 0, 64],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 335
+    "total": 335
   },
   "6741": {
     "name": "K.P. THARUKA SANDEEPA",
     "class": "11F",
     "marks": [17, 0, 11, 36, 59, 21, 26, 0, 29],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 199
+    "total": 199
   },
   "6746": {
     "name": "B.A.U.C. MAHENDRA",
     "class": "11F",
     "marks": [43, 52, 40, 54, 83, 0, 58, 0, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 330
+    "total": 330
   },
   "6755": {
     "name": "A.G.DULESH SAHANSA",
     "class": "11F",
     "marks": [75, 83, 64, 67, 91, 80, 91, 67, 76],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 694
+    "total": 694
   },
   "6763": {
     "name": "K.G.D. SEWHAS",
     "class": "11F",
     "marks": [65, 54, 61, 53, 72, 65, 67, 23, 61],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 521
+    "total": 521
   },
   "6766": {
     "name": "K.S.LOMETH",
     "class": "11F",
     "marks": [70, 79, 69, 86, 91, 78, 84, 0, 66],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 623
+    "total": 623
   },
   "6787": {
     "name": "T.W.B. MANOMITHA",
     "class": "11F",
     "marks": [53, 62, 61, 77, 78, 58, 93, 46, 65],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 593
+    "total": 593
   },
   "6813": {
     "name": "M.D. JEROM SHAMIKA",
     "class": "11F",
     "marks": [51, 72, 41, 64, 72, 66, 67, 37, 51],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 521
+    "total": 521
   },
   "6820": {
     "name": "K.KISANDU JAYAWICKRAMA",
     "class": "11F",
     "marks": [60, 75, 55, 82, 95, 61, 82, 70, 81],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 661
+    "total": 661
   },
   "6830": {
     "name": "H.H.RASIKA NETHVIRU",
     "class": "11F",
     "marks": [31, 38, 25, 0, 59, 33, 81, 10, 56],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 333
+    "total": 333
   },
   "6831": {
     "name": "D.K.S.INDUWARA",
     "class": "11F",
     "marks": [50, 60, 30, 40, 75, 56, 61, 50, 64],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 486
+    "total": 486
   },
   "6834": {
     "name": "Unknown",
     "class": "11F",
     "marks": [33, 28, 17, 16, 46, 20, 22, 24, 39],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 245
+    "total": 245
   },
   "6853": {
     "name": "E.P. CHETHANA DE SOYSA",
     "class": "11F",
     "marks": [68, 70, 47, 77, 76, 76, 80, 62, 80],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 636
+    "total": 636
   },
   "6854": {
     "name": "N.K. OMITH DAMNUJA",
     "class": "11F",
     "marks": [22, 25, 15, 0, 16, 15, 27, 10, 9],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 139
+    "total": 139
   },
   "6857": {
     "name": "H.V.T.Y. DAMHIRU",
     "class": "11F",
     "marks": [27, 45, 44, 31, 71, 40, 30, 18, 59],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 365
+    "total": 365
   },
   "6858": {
     "name": "D.S. GAJANAYAKA",
     "class": "11F",
     "marks": [38, 65, 46, 63, 79, 55, 79, 52, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 477
+    "total": 477
   },
   "6919": {
     "name": "O.H.S. USUGAMPALA",
     "class": "11F",
     "marks": [57, 46, 46, 72, 35, 48, 75, 32, 0],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 411
+    "total": 411
   },
   "8267": {
     "name": "W.M.S. SANDES",
     "class": "11F",
     "marks": [73, 73, 75, 92, 87, 81, 37, 50, 94],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 662
+    "total": 662
   },
   "8979": {
     "name": "E.A.M. PANSILU DE SILVA",
     "class": "11F",
     "marks": [75, 86, 77, 79, 97, 91, 88, 71, 90],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 754
+    "total": 754
   },
   "8980": {
     "name": "K.D. HIMASHA CHAMUDITH",
     "class": "11F",
     "marks": [77, 81, 63, 86, 95, 84, 95, 84, 89],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 754
+    "total": 754
   },
   "8983": {
     "name": "K.K.C. KAVITHRA",
     "class": "11F",
     "marks": [55, 0, 43, 77, 0, 72, 45, 84, 87],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 463
+    "total": 463
   },
   "8992": {
     "name": "H.K.A. DEWMIKA",
     "class": "11F",
     "marks": [87, 97, 78, 78, 91, 95, 92, 92, 89],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 799
+    "total": 799
   },
   "9001": {
     "name": "W. ANUGA VIHAS",
     "class": "11F",
     "marks": [89, 92, 87, 97, 97, 95, 96, 75, 91],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 819
+    "total": 819
   },
   "9002": {
     "name": "R. RANMINA WELLALA",
     "class": "11F",
     "marks": [82, 94, 82, 82, 92, 87, 98, 60, 83],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 760
+    "total": 760
   },
   "9013": {
     "name": "G.H.P.A.W. PIYUMAL",
     "class": "11F",
     "marks": [67, 53, 61, 86, 91, 71, 90, 62, 86],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 667
+    "total": 667
   },
   "9015": {
     "name": "V.L. SAMARASEKARA",
     "class": "11F",
     "marks": [77, 78, 74, 83, 95, 82, 86, 56, 80],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 711
+    "total": 711
   },
   "9017": {
     "name": "A.V.K. THARUMINA",
     "class": "11F",
     "marks": [77, 80, 67, 85, 83, 86, 94, 0, 85],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 657
+    "total": 657
   },
   "9247": {
     "name": "N.Y.YONAL",
     "class": "11F",
     "marks": [71, 80, 66, 86, 87, 78, 88, 85, 79],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 720
+    "total": 720
   },
   "9328": {
     "name": "M.H. RUSIRU VIHANGA",
     "class": "11F",
     "marks": [81, 87, 66, 69, 92, 86, 91, 56, 81],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 709
+    "total": 709
   },
   "9498": {
     "name": "K.V. MALITHA MADUSHAN",
     "class": "11F",
     "marks": [52, 62, 33, 73, 75, 37, 50, 33, 57],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 472
+    "total": 472
   },
   "9707": {
     "name": "RANDUL DE SOYSA",
     "class": "11F",
     "marks": [39, 35, 27, 74, 51, 42, 62, 29, 49],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 408
+    "total": 408
   },
   "11836": {
     "name": "R. GETHMIKA PEDURUHEWA",
     "class": "11F",
     "marks": [58, 81, 51, 71, 70, 58, 65, 40, 65],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
-    "total_marks": 559
+    "total": 559
   }
-}
+
 
 
 };
