@@ -954,8 +954,8 @@ const data = {
   "7601": {
     "name": "K.P.Thenuk Hansaka",
     "place": 3,
-    "marks": [98, 86, 90, 92, 92, 100, 88, 93, 97, 95, 87],
-    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "P.T.S", "Health"]
+    "marks": [98, 86, 90, 92, 92, 100, 88, 93, 97, 97, 95,87],
+    "subjects": ["Buddhism", "Sinhala", "English", "Maths", "Science", "History", "Geography", "Civics", "Aesthetics", "P.T.S", "Health", "Tamil"]
   },
   "7660": {
     "name": "K.A. Euwen Matheesha",
