@@ -151,7 +151,7 @@ const data = {
     "marks": [29, 54, 38, 17, 50, 63, 19, 29, 0],
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"]
   },
-  "6820": {
+  "6920": {
     "name": "D.A.LAKDILU HANSITHA",
     "place": 5,
     "marks": [79, 85, 78, 92, 89, 90, 93, 75, 81],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
