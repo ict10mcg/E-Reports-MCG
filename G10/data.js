@@ -770,7 +770,7 @@ const data = {
   "7243": {
     "name": "V.V. Wanniarachchi",
     "place": 37,
-    "marks": [62, 58, 33, 36, 88, 56, 40, 24, 57],
+    "marks": [62, 58, 40, 36, 88, 56, 40, 30, 57],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
   "7249": {
