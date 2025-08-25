@@ -193,7 +193,7 @@ const data = {
     "marks": [45, 82, 56, 38, 56, 45, 76, 63, 52],
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"]
   },
-  "6854": {
+  "8954": {
     "name": "M.S. SACHITHYA",
     "place": 4,
     "marks": [83, 83, 89, 82, 87, 83, 91, 97, 80],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
