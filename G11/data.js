@@ -1622,7 +1622,7 @@ const data = {
     "marks": [7, 26, 17, 8, 20, 22, 27, 13, 30],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
-  "6739": {
+  "6666": {
     "name": "D.G. NOMIN YUTHMIKA",
     "place": 35,
     "marks": [40, 28, 26, 54, 50, 27, 46, 0, 64],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
