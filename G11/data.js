@@ -205,7 +205,7 @@ const data = {
     "marks": [75, 81, 68, 80, 85, 85, 80, 50, 75],
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"]
   },
-  "8955": {
+  "895": {
     "name": "M.H.I. DEWDUNU",
     "place": 14,
     "marks": [72, 77, 71, 71, 60, 90, 81, 71, 85],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
