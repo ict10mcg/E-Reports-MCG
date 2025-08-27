@@ -1062,9 +1062,9 @@ const data = {
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
 "6775": {
-  "name": "Senila Hansana (●'◡'●)",
+  "name": "Senila Hansana",
   "place": 47,
-  "marks": [68, 52, 74, 34, 34, 23, 67, 50, 27],
+  "marks": [68, 52, 74, 34, 34, 56, 67, 50, 27],
   "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"]
 },
 "6781": {
@@ -1813,7 +1813,6 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
-
 
 
 
