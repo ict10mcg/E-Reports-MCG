@@ -575,7 +575,7 @@ const data = {
   "8972": {
     "name": "K.K. NETHINDU THAMINDA",
     "class": "11B",
-    "marks": [89, 79, 83, 78, 81, 64, 78, 76, 93],
+    "marks": [89, 79, 83, 78, 81, 65, 78, 76, 93],
     "subjects": ["Buddhism", "Sinhala", "Maths", "Science", "English", "History", "OPT 1", "OPT 2", "OPT 3"],
     "total": 721
   },
