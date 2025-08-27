@@ -232,7 +232,7 @@ const data = {
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"],
     "total": 775
   },
-  "895": {
+  "8955": {
     "name": "V.A.A.P. BIHARA",
     "class": "11A",
     "marks": [75, 81, 68, 80, 85, 85, 80, 50, 75],
