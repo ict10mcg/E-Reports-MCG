@@ -239,7 +239,7 @@ const data = {
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"],
     "total": 679
   },
-  "8955": {
+  "895": {
     "name": "M.H.I. DEWDUNU",
     "class": "11A",
     "marks": [72, 77, 71, 71, 60, 90, 81, 71, 85],
@@ -1226,9 +1226,9 @@ const data = {
     "total": 483
   },
   "6775": {
-    "name": "Senila Hansana (●'◡'●)",
+    "name": "Senila Hansana",
     "class": "11E",
-    "marks": [68, 52, 74, 34, 34, 23, 67, 50, 27],
+    "marks": [68, 52, 74, 34, 34, 56, 67, 50, 27],
     "subjects": ["Buddhism", "Sinhala", "English", "Mathematics", "Science", "History", "OPT1", "OPT2", "OPT3"],
     "total": 429
   },
@@ -2101,7 +2101,6 @@ const data = {
 
 
 };
-
 
 
 
