@@ -7,7 +7,7 @@ const data = {
     "marks": [80, 81, 63, 75, 86, 81, 95, 60, 76],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
-  "6677": {
+  "6677": {F
     "name": "S.SENUL KOVIDA",
     "place": 31,
     "marks": [51, 63, 43, 73, 58, 66, 67, 48, 52],
@@ -1622,7 +1622,7 @@ const data = {
     "marks": [7, 26, 17, 8, 20, 22, 27, 13, 30],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
-  "6666": {
+  "0000": {
     "name": "D.G. NOMIN YUTHMIKA",
     "place": 35,
     "marks": [40, 28, 26, 54, 50, 27, 46, 0, 64],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
