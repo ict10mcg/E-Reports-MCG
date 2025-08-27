@@ -7,7 +7,7 @@ const data = {
     "marks": [80, 81, 63, 75, 86, 81, 95, 60, 76],
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   },
-  "6677": {F
+  "6677": {
     "name": "S.SENUL KOVIDA",
     "place": 31,
     "marks": [51, 63, 43, 73, 58, 66, 67, 48, 52],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
