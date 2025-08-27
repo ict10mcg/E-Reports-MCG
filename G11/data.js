@@ -199,7 +199,7 @@ const data = {
     "marks": [83, 83, 89, 82, 87, 83, 91, 97, 80],
     "subjects": ["Sinhala Language", "Religion", "Science", "Mathematics", "English", "History", "OPT1", "OPT2", "OPT3"]
   },
-  "895": {
+  "8955": {
     "name": "V.A.A.P. BIHARA",
     "place": 13,
     "marks": [75, 81, 68, 80, 85, 85, 80, 50, 75],
@@ -1813,6 +1813,7 @@ const data = {
     "subjects": ["Sinhala", "Religion", "Science", "Maths", "English", "History", "OPT 1", "OPT 2", "OPT 3"]
   }
 };
+
 
 
 
