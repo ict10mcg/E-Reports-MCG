@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Search System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/3.0.1/jspdf.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://raw.githubusercontent.com/ict10mcg/E-Reports-MCG/refs/heads/main/G11/img/bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        @media screen and (max-width: 1024px) {
+            body {
+                background-image: url('https://raw.githubusercontent.com/ict10mcg/E-Reports-MCG/refs/heads/main/G11/img/bg2.png');
+                background-attachment: scroll;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .search-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .download-section {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        .download-button, .grade-input {
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            font-size: 1.1rem;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .grade-input {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .grade-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .grade-input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .download-button:hover {
+            background: linear-gradient(45deg, #764ba2, #667eea);
+            transform: translateY(-2px);
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .search-input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .search-info {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .results-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            min-height: 200px;
+        }
+
+        .result-item {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .result-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .student-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .rank {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            display: inline-block;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .rank.gold {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #333;
+        }
+
+        .rank.silver {
+            background: linear-gradient(45deg, #c0c0c0, #e8e8e8);
+            color: #333;
+        }
+
+        .rank.bronze {
+            background: linear-gradient(45deg, #cd7f32, #daa520);
+            color: #fff;
+        }
+
+        .marks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .mark-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+            position: relative;
+        }
+
+        .grade {
+            font-weight: bold;
+            margin-left: 5px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        .grade-A { color: #00ff00; background: rgba(0, 255, 0, 0.1); }
+        .grade-B { color: #4169E1; background: rgba(65, 105, 225, 0.1); }
+        .grade-C { color: #FFD700; background: rgba(255, 215, 0, 0.1); }
+        .grade-S { color: #FF6347; background: rgba(255, 99, 71, 0.1); }
+        .grade-W { color: #FF0000; background: rgba(255, 0, 0, 0.1); }
+
+        .grade-summary {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .grade-count {
+            text-align: center;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .grade-count-A { background: rgba(0, 255, 0, 0.2); color: #00ff00; }
+        .grade-count-B { background: rgba(65, 105, 225, 0.2); color: #4169E1; }
+        .grade-count-C { background: rgba(255, 215, 0, 0.2); color: #FFD700; }
+        .grade-count-S { background: rgba(255, 99, 71, 0.2); color: #FF6347; }
+        .grade-count-W { background: rgba(255, 0, 0, 0.2); color: #FF0000; }
+
+        .student-position {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+
+        .no-results {
+            text-align: center;
+            opacity: 0.7;
+            font-size: 1.1rem;
+            padding: 40px;
+        }
+
+        .total-students {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .student-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .search-container,
+            .results-container {
+                padding: 20px;
+                margin: 15px;
+            }
+            
+            .download-section {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Student Results Portal</h1>
+            <p>Search by student number, name, or ranking position</p>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search by student number, name, rank (1-100), or range (50-)">
+            </div>
+            <div class="search-info">
+                <strong>Search Examples:</strong><br>
+                • Student Number: 6663<br>
+                • Student Name: MININDU<br>
+                • Specific Rank: 1, 50, 100<br>
+                • Rank Range: 1-10 (ranks 1 to 10), 50- (rank 50 and above)<br>
+                • Grade Combination: A9, A8, A8 B1, A7 C1 W1
+            </div>
+            <div class="download-section">
+                <input type="text" id="gradeInput" class="grade-input" placeholder="Enter grade combination (e.g., A9, A8, A8 B1)">
+                <button class="download-button" onclick="generatePDF()">Download Labels PDF</button>
+            </div>
+        </div>
+
+        <div class="results-container">
+            <div id="results">
+                <div class="no-results">
+                    Start typing to search for students...
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dataall.js"></script>
+    <script>
+        // Initialize ranked students
+        const rankedStudents = (() => {
+            const students = Object.keys(data).map(id => ({
+                id,
+                ...data[id],
+                rank: 0
+            }));
+
+            students.sort((a, b) => b.total - a.total);
+            let currentRank = 1;
+            for (let i = 0; i < students.length; i++) {
+                if (i > 0 && students[i].total < students[i - 1].total) {
+                    currentRank = i + 1;
+                }
+                students[i].rank = currentRank;
+            }
+            return students;
+        })();
+
+        // Grade calculation
+        function getGrade(mark) {
+            if (mark >= 75) return 'A';
+            if (mark >= 65) return 'B';
+            if (mark >= 50) return 'C';
+            if (mark >= 35) return 'S';
+            return 'W';
+        }
+
+        // Count grades
+        function countGrades(marks) {
+            const counts = { A: 0, B: 0, C: 0, S: 0, W: 0 };
+            marks.forEach(mark => counts[getGrade(mark)]++);
+            return counts;
+        }
+
+        // Get student position
+        function getStudentPosition(studentId) {
+            return Object.keys(data).indexOf(studentId) + 1;
+        }
+
+        // Get rank class for display
+        function getRankClass(rank) {
+            return rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : '';
+        }
+
+        // Display student results
+        function displayStudent(student) {
+            const gradeCounts = countGrades(student.marks);
+            const position = getStudentPosition(student.id);
+            
+            return `
+                <div class="result-item">
+                    <div class="student-info">
+                        <div class="info-item">
+                            <span class="info-label">Student Number</span>
+                            <span class="info-value">${student.id}</span>
+                            <div class="student-position">${position}/${student.rank}</div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Name</span>
+                            <span class="info-value">${student.name}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Class</span>
+                            <span class="info-value">${student.class}</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Total Marks</span>
+                            <span class="info-value">${student.total}</span>
+                        </div>
+                    </div>
+                    <div class="rank ${getRankClass(student.rank)}">Rank: ${student.rank}</div>
+                    <div class="grade-summary">
+                        <div class="grade-count grade-count-A">A: ${gradeCounts.A}</div>
+                        <div class="grade-count grade-count-B">B: ${gradeCounts.B}</div>
+                        <div class="grade-count grade-count-C">C: ${gradeCounts.C}</div>
+                        <div class="grade-count grade-count-S">S: ${gradeCounts.S}</div>
+                        <div class="grade-count grade-count-W">W: ${gradeCounts.W}</div>
+                    </div>
+                    <div class="marks-grid">
+                        ${student.subjects.map((subject, index) => {
+                            const grade = getGrade(student.marks[index]);
+                            return `
+                                <div class="mark-item">
+                                    <strong>${subject}</strong>
+                                    <span class="grade grade-${grade}">${grade}</span>
+                                    <br>${student.marks[index]}
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Search students
+        function searchStudents(query) {
+            const resultsDiv = document.getElementById('results');
+            if (!query.trim()) {
+                resultsDiv.innerHTML = '<div class="no-results">Start typing to search for students...</div>';
+                return;
+            }
+
+            const queryLower = query.toLowerCase().trim();
+            let results = [];
+
+            if (queryLower.includes('-')) {
+                const [start, end] = queryLower.split('-').map(s => s.trim());
+                const startRank = parseInt(start);
+                if (end) {
+                    const endRank = parseInt(end);
+                    if (!isNaN(startRank) && !isNaN(endRank)) {
+                        results = rankedStudents.filter(s => s.rank >= startRank && s.rank <= endRank);
+                    }
+                } else if (!isNaN(startRank)) {
+                    results = rankedStudents.filter(s => s.rank >= startRank);
+                }
+            } else if (/^\d+$/.test(queryLower)) {
+                results = rankedStudents.filter(s => s.rank === parseInt(queryLower));
+            } else {
+                results = rankedStudents.filter(student => 
+                    student.id.includes(queryLower) || 
+                    student.name.toLowerCase().includes(queryLower)
+                );
+            }
+
+            resultsDiv.innerHTML = results.length === 0 
+                ? '<div class="no-results">No students found matching your search.</div>'
+                : (results.length > 1 ? `<div class="total-students">Found ${results.length} students</div>` : '') + 
+                  results.map(displayStudent).join('');
+        }
+
+        // Parse grade combination input
+        function parseGradeInput(input) {
+            if (!input.trim()) return { mode: 'all', counts: {} };
+            const grades = input.trim().toUpperCase().split(/\s+/);
+            const counts = { A: 0, B: 0, C: 0, S: 0, W: 0 };
+            let mode = '';
+
+            for (const grade of grades) {
+                const match = grade.match(/^([ABCWS])(\d)$/);
+                if (match) {
+                    const gradeType = match[1];
+                    const count = parseInt(match[2]);
+                    counts[gradeType] = count;
+                    mode += `${gradeType}${count} `;
+                }
+            }
+
+            return { mode: mode.trim() || 'all', counts };
+        }
+
+        // Filter students by grade input
+        function filterStudentsByMode(input) {
+            const { mode, counts } = parseGradeInput(input);
+            if (mode === 'all') return rankedStudents;
+
+            return rankedStudents.filter(student => {
+                const grades = student.marks.map(getGrade);
+                const gradeCounts = countGrades(student.marks);
+                return Object.keys(counts).every(grade => gradeCounts[grade] === counts[grade]);
+            }).sort((a, b) => a.rank - b.rank);
+        }
+
+function generatePDF() {
+    try {
+        const { jsPDF } = window.jspdf;
+        if (!jsPDF) throw new Error('jsPDF library not loaded');
+
+        const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+        const pageWidth = 210;
+        const pageHeight = 297;
+        const margin = 5;
+        const labelHeight = 22; // Slightly increased for better spacing
+        const labelSpacing = 2;
+        const columns = 2;
+        const labelWidth = (pageWidth - 2 * margin - (columns - 1) * labelSpacing) / columns;
+        const rowsPerPage = Math.floor((pageHeight - 2 * margin) / (labelHeight + labelSpacing));
+
+        let currentRow = 0, currentCol = 0;
+        const input = document.getElementById('gradeInput').value;
+        const { mode } = parseGradeInput(input);
+        const students = filterStudentsByMode(input);
+
+        if (!students.length) {
+            alert('Error: No students found for the selected grade combination.');
+            return;
+        }
+
+        students.forEach(student => {
+            if (currentRow >= rowsPerPage) {
+                doc.addPage();
+                currentRow = 0;
+                currentCol = 0;
+            }
+
+            const x = margin + currentCol * (labelWidth + labelSpacing);
+            const y = margin + currentRow * (labelHeight + labelSpacing);
+
+            // Draw label
+            doc.setFillColor(255, 255, 255);
+            doc.rect(x, y, labelWidth, labelHeight, 'F');
+            doc.setDrawColor(0, 0, 0);
+            doc.rect(x, y, labelWidth, labelHeight);
+
+            // Calculate grade category and counts
+            const grades = student.marks.map(getGrade);
+            const gradeCounts = countGrades(student.marks);
+            let gradeCategory = mode;
+            if (mode === 'all') {
+                const aCount = gradeCounts.A, bCount = gradeCounts.B, cCount = gradeCounts.C, sCount = gradeCounts.S, wCount = gradeCounts.W;
+                gradeCategory = `${aCount > 0 ? `A${aCount} ` : ''}${bCount > 0 ? `B${bCount} ` : ''}${cCount > 0 ? `C${cCount} ` : ''}${sCount > 0 ? `S${sCount} ` : ''}${wCount > 0 ? `W${wCount} ` : ''}`.trim();
+            }
+
+            // Truncate function to fit text within label width
+            function truncateText(text, maxWidth) {
+                let truncated = text;
+                while (doc.getTextWidth(truncated) > maxWidth && truncated.length > 0) {
+                    truncated = truncated.slice(0, -1);
+                }
+                return truncated + (truncated.length < text.length ? '...' : '');
+            }
+
+            // First row: Student info (bold)
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(9); // Reduced from 10 for better fit
+            doc.setTextColor(0, 0, 0);
+            const mainText = `${gradeCategory} | ${student.rank} | ${student.id} | ${student.class} | ${student.name} | ${student.total}`;
+            const truncatedMainText = truncateText(mainText, labelWidth - 10); // 10mm padding
+            const mainTextX = x + (labelWidth - doc.getTextWidth(truncatedMainText)) / 2;
+            doc.text(truncatedMainText, mainTextX, y + 6); // Moved up slightly
+
+            // Second row: Non-zero grade counts or subjects with B, C, S, W (bold)
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(7); // Reduced from 8 for better spacing
+            const lowerGrades = student.subjects
+                .map((subject, i) => ({ subject, grade: grades[i] }))
+                .filter(({ grade }) => ['B', 'C', 'S', 'W'].includes(grade));
+            
+            let secondRowText, thirdRowText = '';
+            if (lowerGrades.length >= 3 && mode !== 'A9') {
+                // If 3 or more subjects with B, C, S, W, move to third row
+                secondRowText = Object.entries(gradeCounts)
+                    .filter(([_, count]) => count > 0)
+                    .map(([grade, count]) => `${grade}:${count}`)
+                    .join(' | ');
+                thirdRowText = lowerGrades.map(({ subject, grade }) => `${subject}:${grade}`).join(' | ');
+            } else if (lowerGrades.length > 0 && mode !== 'A9') {
+                // Less than 3 subjects, show in second row
+                secondRowText = lowerGrades.map(({ subject, grade }) => `${subject}:${grade}`).join(' | ');
+            } else {
+                // Show non-zero grade counts
+                secondRowText = Object.entries(gradeCounts)
+                    .filter(([_, count]) => count > 0)
+                    .map(([grade, count]) => `${grade}:${count}`)
+                    .join(' | ');
+            }
+
+            // Render second row
+            const truncatedSecondRowText = truncateText(secondRowText, labelWidth - 10);
+            const secondRowX = x + (labelWidth - doc.getTextWidth(truncatedSecondRowText)) / 2;
+            doc.text(truncatedSecondRowText, secondRowX, y + 12); // Increased spacing
+
+            // Render third row if needed
+            if (thirdRowText) {
+                const truncatedThirdRowText = truncateText(thirdRowText, labelWidth - 10);
+                const thirdRowX = x + (labelWidth - doc.getTextWidth(truncatedThirdRowText)) / 2;
+                doc.text(truncatedThirdRowText, thirdRowX, y + 18); // Increased spacing
+            }
+
+            // Update position
+            currentCol++;
+            if (currentCol >= columns) {
+                currentCol = 0;
+                currentRow++;
+            }
+        });
+
+        doc.save(`student_labels_${mode.replace(/\s+/g, '_')}.pdf`);
+    } catch (e) {
+        console.error('Error generating PDF:', e);
+        alert('Error generating PDF: ' + e.message);
+    }
+}
+    </script>
+</body>
+</html>
