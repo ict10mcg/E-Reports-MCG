@@ -1,0 +1,255 @@
+    /* Color Scheme */
+    :root {
+      --primary: #45a29e; /* Teal Green */
+      --secondary: #6c757d; /* Grayish Blue */
+      --accent: #e66c2c;
+      --success: #28a745;
+      --warning: #17a2b8;
+     --danger: #dc3545;
+     --info: #ffbf00;
+      --light-gray: #f8f9fa;
+      --white: #ffffff;
+    }
+    #rotate-message {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
+    #rotate-logo {
+      width: 24px; /* Adjust the size as needed */
+      height: 24px; /* Adjust the size as needed */
+      margin-right: 10px; /* Space between the logo and the text */
+      animation: rotate 2s linear infinite; /* Rotate animation */
+    }
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+    }
+    body {
+      background: linear-gradient(135deg, var(--light-gray), #e9ecef);
+      color: var(--secondary);
+      line-height: 1.6;
+      position: relative;
+    }
+    header {
+      text-align: center;
+      background: linear-gradient(135deg, var(--primary), #45a29e);
+      color: var(--white);
+      padding: 2rem 0;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      color: #f0ad4e;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    main {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    #search-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .search-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    #teacher-photo {
+      width: 140px;
+      height: 170px;
+      border-radius: 5%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    #admission-number {
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+      width: 100%;
+      max-width: 300px;
+      border: 2px solid var(--primary);
+      border-radius: 25px;
+      background: var(--white);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    #search-btn {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      background: linear-gradient(135deg, #f0ad4e);
+      color: black;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    #report-section {
+      display: none;
+    }
+    #place-rank{
+      color: #dc3545;
+    }
+    #chart-container {
+      background: var(--white);
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      margin: 1rem 0;
+      position: relative;
+    }
+    #student-info {
+      background: var(--white);
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .info-card {
+      text-align: center;
+      padding: 1rem;
+      border-radius: 10px;
+      background: var(--light-gray);
+      border: 2px solid var(--primary);
+    }
+    .info-card h3 {
+      font-size: 1rem;
+      color: var(--secondary);
+      margin-bottom: 0.5rem;
+    }
+    .info-card p {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--primary);
+    }
+    #teacher{
+      color: #ffffff;
+    }
+    .grade-distribution {
+      background: var(--white);
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      margin: 1rem 0;
+    }
+    .grade-distribution h3 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+    .grade-distribution .badge {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      border-radius: 20px;
+      color: black;
+      font-weight: bold;
+    }
+    .grade-distribution .badge.success {
+      background-color: var(--success);
+    }
+    .grade-distribution .badge.warning {
+      background-color: var(--warning);
+    }
+    .grade-distribution .badge.info {
+      background-color: var(--info);
+    }
+    .grade-distribution .badge.accent {
+      background-color: var(--accent);
+    }
+    .grade-distribution .badge.danger {
+      background-color: var(--danger);
+    }
+    .subject-marks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    
+    .subject-details {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .subject-details .badge {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--white);
+      color: var(--secondary);
+      margin-top: 2rem;
+      box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+    }
+    @media (min-width: 768px) {
+      header h1 { font-size: 2.5rem; }
+      #admission-number { font-size: 1.1rem; }
+      #search-btn { font-size: 1.1rem; }
+      .info-card { padding: 1.5rem; }
+    }
+    #rotate-message {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      z-index: 1000;
+    }
+     #legend {
+  background: rgba(249 248 234 / 95%);
+  backdrop-filter: blur(20px);
+  padding: 1rem;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 1.5rem;
+  width: 200px;
+  max-width: 400px;
+}
+    #legend div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    #legend .color-box {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+    }
+  
